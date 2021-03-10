@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import {Link} from "react-router-dom";
+import Link from "next/link";
 
 /**
  * Show profile of user
@@ -80,14 +80,14 @@ class Profile extends React.Component {
 
                         <div className="mt-4">
                             <div className="py-1">
-                                <Link to="/user/change_password"
+                                <Link href="/user/change_password"
                                       className="py-2 text-md text-gray-600">
                                     Change Password
                                 </Link>
                             </div>
 
                             <div className="py-1">
-                                <Link to="user/deactivate_account"
+                                <Link href="user/deactivate_account"
                                       className="py-2 text-md text-gray-600">
                                     Deactivate Account
                                 </Link>

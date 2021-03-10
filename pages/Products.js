@@ -8,9 +8,7 @@ class Products extends Component {
     }
 
     addToWishList() {
-        console.log(this);
 
-        alert('Added to your wish list');
     }
 
     render() {
