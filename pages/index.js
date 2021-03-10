@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head';
 
 import Link from 'next/link';
 import SideNav from "./components/SideNav";
@@ -51,6 +52,12 @@ class App extends React.Component {
 
         return (
             <div>
+                <Head>
+                    <title>Webmeds</title>
+                    <meta key="description"
+                          content="Webmeds is multivendor medical platform allowing every medical vendor to sell medicine with peace of mind."/>
+                </Head>
+
                 <header className="bg-regal-blue text-white">
                     <div className="container mx-auto border-b-2 pb-2">
                         <nav className="flex justify-between relative">

@@ -10,4 +10,4 @@ yarn dev
 pm2 start yarn --name "meds" -- start
 ```
 
-[webmeds](webmeds.in)
+[webmeds](https://webmeds.in)
