@@ -1,8 +1,8 @@
 import React from "react";
-import Head from 'next/head';
 
 import Link from 'next/link';
-import SideNav from "./components/SideNav";
+import SideNav from "../components/SideNav";
+import MetaHeader from "../components/MetaHeader";
 
 class App extends React.Component {
 
@@ -11,6 +11,10 @@ class App extends React.Component {
         this.state = {sideNav: false};
         this.toggleSideMenu = this.toggleSideMenu.bind(this);
         this.sideNavCallback = this.sideNavCallback.bind(this);
+
+        fetch('http://localhost:8000/api/home')
+            .then(response => response.json())
+            .then(json => this.setState({...json.data}));
     }
 
     sideNavCallback() {
@@ -52,24 +56,7 @@ class App extends React.Component {
 
         return (
             <div>
-                <Head>
-                    <!-- Twitter Card data -->
-                    <meta name="twitter:card" content="product"/>
-                    <meta name="twitter:site" content="@publisher_handle"/>
-                    <meta name="twitter:title" content="Page Title"/>
-                    <meta name="twitter:description" content="Page description less than 200 characters"/>
-                    <meta name="twitter:creator" content="@author_handle"/>
-                    <meta name="twitter:image" content="http://www.example.com/image.jpg"/>
-                    <meta name="twitter:data1" content="$3"/>
-                    <meta name="twitter:label1" content="Price"/>
-                    <meta name="twitter:data2" content="Black"/>
-                    <meta name="twitter:label2" content="Color"/>
-                    <!-- Twitter Card data -->
-
-                    <title>Webmeds</title>
-                    <meta key="description"
-                          content="Webmeds is multivendor medical platform allowing every medical vendor to sell medicine with peace of mind."/>
-                </Head>
+                <MetaHeader/>
 
                 <header className="bg-regal-blue text-white">
                     <div className="container mx-auto border-b-2 pb-2">
@@ -139,7 +126,7 @@ class App extends React.Component {
 
                 <section className="top-picks px-3">
                     <div className="py-2">
-                        <h6 className="text-gray-600 text-sm font-medium">TOP PICS</h6>
+                        <h6 className="text-gray-600 text-sm font-medium">TOP PICKS</h6>
                     </div>
 
                     <div className="grid grid-cols-2 gap-4">
