@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../../components/Header";
+import Header from "/../components/Header";
 import Link from "next/link";
 
 /**
  * Show profile of user
  */
-class Profile extends React.Component {
+export default class Profile extends React.Component {
 
     render() {
         return (
@@ -99,5 +99,3 @@ class Profile extends React.Component {
         );
     }
 }
-
-export default Profile;

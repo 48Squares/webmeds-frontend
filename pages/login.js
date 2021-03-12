@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Link from 'next/link';
-class Login extends Component {
+
+export default class Login extends Component {
 
     render() {
         return (
@@ -19,26 +20,30 @@ class Login extends Component {
                             </button>
                         </Link>
 
-                        <span className="text-white font-semibold">48Squares</span>
+                        <span className="text-white font-semibold">Webmeds</span>
                     </div>
                 </div>
 
                 <div className="bg-white w-full h-full rounded-t-lg">
-                    <div className=" px-4 py-4 border-1 border-red-400">
+                    <div className="px-6 py-4">
                         <p className="">Login to get started</p>
+                    </div>
 
+                    <div>
                         <form action="" className="">
-                            <input
-                                className=" border border-gray-300 h-12 w-full px-4 rounded-md mt-8 border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+                            <div className="px-4">
+                                <input
+                                className=" border border-gray-300 h-12 w-full px-4 rounded-md mt-2 border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
                                 type="text"
                                 name="phone" aria-label="User phone number"
                                 placeholder="Phone number"
                             />
+                            </div>
 
-                            <div className="absolute bottom-4 left-0 flex w-full justify-center">
+                            <div className="absolute bottom-4 left-0 flex w-full justify-center px-4">
                                 <button
-                                    className="bg-regal-blue px-4 py-3 focus:ring hover:ring rounded-sm text-white w-3/4 focus:outline-none">Send
-                                    OTP
+                                    className="bg-regal-blue px-4 py-3 focus:ring hover:ring rounded-sm text-white w-full focus:outline-none">
+                                    Send OTP
                                 </button>
                             </div>
                         </form>
@@ -48,5 +53,3 @@ class Login extends Component {
         );
     }
 }
-
-export default Login;
