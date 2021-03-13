@@ -1,8 +1,9 @@
 import React from "react";
-
-import Link from 'next/link';
-import SideNav from "../components/SideNav";
 import MetaHeader from "../components/MetaHeader";
+import DesktopNavigation from "../components/DesktopNavigation";
+import MobileNavigation from "../components/MobileNavigation";
+import DesktopSlider from "../components/DesktopSlider";
+import DesktopMenuBar from "../components/DesktopMenuBar";
 
 class App extends React.Component {
 
@@ -39,113 +40,17 @@ class App extends React.Component {
             <div>
                 <MetaHeader/>
 
-                <header className="bg-regal-blue text-white md:hidden mobile-menu">
-                    <div className="container mx-auto pb-2 ">
-                        <nav className="flex justify-between relative">
-                            {this.state.sideNav ? <SideNav callback={this.sideNavCallback}/> : null}
+                <MobileNavigation
+                    sideNav={this.state.sideNav}
+                    callback={this.sideNavCallback}
+                    onClick={this.toggleSideMenu}
+                />
 
-                            <div className="flex py-4 px-3 space-x-3 ">
-                                <svg className="text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" onClick={this.toggleSideMenu}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                                          d="M4 6h16M4 12h16M4 18h16"/>
-                                </svg>
+                <DesktopNavigation/>
 
-                                <div className="flex items-center text-white">
-                                    <Link href='/'>WebMeds</Link>
-                                </div>
-                            </div>
+                <DesktopMenuBar/>
 
-                            <div className="flex px-3 py-4 space-x-4 ">
-                                <svg className="text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                          d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                                </svg>
-
-                                <Link href={'/cart'}>
-                                    <svg className="text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg"
-                                         fill="none"
-                                         viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
-                                    </svg>
-                                </Link>
-
-                                <span className="cursor-pointer">
-                                        <Link href={'/login'}>Login</Link>
-                                </span>
-                            </div>
-                        </nav>
-
-                        <div className="px-2">
-                            <Link href={'/search'}>
-                                <div className="flex bg-white h-10 items-center rounded-sm space-x-2">
-                                    <svg className="text-gray-500 w-6 h-6 ml-2 inline-block"
-                                         xmlns="http://www.w3.org/2000/svg" fill="none"
-                                         viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-                                    </svg>
-
-                                    <input
-                                        className="flex-grow h-full py-4 text-gray-600 text-sm hover:outline-none focus:outline-none"
-                                        type="search"
-                                        placeholder="Search Product, Brand and More"/>
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                </header>
-
-
-                <nav className="hidden bg-regal-blue text-white desktop-meu py-2 sm:hidden md:block">
-                    <div className="sm:container flex mx-auto items-center justify-center space-x-8">
-                        <div>
-                            <h3 className="text-base">Webmeds</h3>
-                        </div>
-
-                        <div className="px-2 w-5/12">
-                            <Link href={'/'}>
-                                <div className="flex bg-white h-9 items-center rounded-sm space-x-2 px-3">
-                                    <input
-                                        className="flex-grow h-full py-4 text-gray-700 text-sm hover:outline-none focus:outline-none placeholder-gray-600"
-                                        type="search"
-                                        placeholder="Search Product, Brand and More"/>
-
-                                    <svg className="text-gray-500 w-6 h-6 inline-block"
-                                         xmlns="http://www.w3.org/2000/svg" fill="none"
-                                         viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-                                    </svg>
-                                </div>
-                            </Link>
-                        </div>
-
-                        <div className="flex items-center space-x-1">
-                            <span>My Account</span>
-
-                            <svg className="w-3 h-3 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                 viewBox="0 0 24 24"
-                                 stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
-                            </svg>
-                        </div>
-
-                        <div className="flex items-center space-x-1">
-                            <svg className="text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg"
-                                 fill="none"
-                                 viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
-                            </svg>
-
-                            <span>Cart</span>
-                        </div>
-                    </div>
-
-                </nav>
+                <DesktopSlider/>
 
                 <section className="flex flex-nowrap space-x-4 overflow-x-auto py-4 scrollbar-none">
                     {this.state.featuredCategories.map((product, index) =>
