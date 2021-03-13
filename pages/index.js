@@ -58,7 +58,6 @@ class App extends React.Component {
                     )}
                 </section>
 
-
                 <section className="top-picks px-3">
                     <div className="py-2">
                         <h6 className="text-gray-600 text-sm font-medium">TOP PICKS</h6>

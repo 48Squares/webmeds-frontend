@@ -40,6 +40,9 @@ export default class DesktopSlider extends React.Component {
         new Swiper('.swiper-container', {
             loop: true,
             speed: 1500,
+            autoplay: {
+                delay: 2000
+            },
             direction: 'horizontal',
             effect: 'slide',
             fadeEffect: {

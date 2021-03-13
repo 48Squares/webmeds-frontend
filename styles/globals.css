@@ -28,3 +28,11 @@ code {
     scrollbar-width: none; /* Firefox */
   }
 }
+
+.mega-menu {
+  display: block;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
