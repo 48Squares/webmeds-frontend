@@ -113,7 +113,7 @@ export default class DesktopMenuBar extends React.Component {
         const image = '/menu/1.png';
 
         return (
-            <nav className="bg-white">
+            <nav className="bg-white shadow-md mb-2">
                 <header className="px-3 py-1 flex justify-around">
                     <div className="flex flex-col justify-center">
                         <div>
