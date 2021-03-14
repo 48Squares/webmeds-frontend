@@ -39,7 +39,7 @@ export default class DiscountForYou extends React.Component {
                     <section className="swiper-container h-80 px-2 hidden lg:block">
                         <div className="swiper-wrapper">
                             {sliders.map((key, index) => (
-                                    <div className="swiper-slide relative" key={index}>
+                                    <div className="swiper-slide" key={index}>
                                         <PlaceholderShell/>
                                     </div>
                                 )
@@ -63,6 +63,7 @@ export default class DiscountForYou extends React.Component {
 
         new Swiper('.swiper-container', {
             loop: true,
+            slidesPerView: 6,
             speed: 1500,
             autoplay: {
                 delay: 2000
