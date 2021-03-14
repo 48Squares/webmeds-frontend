@@ -4,6 +4,7 @@ import DesktopNavigation from "../components/DesktopNavigation";
 import MobileNavigation from "../components/MobileNavigation";
 import DesktopSlider from "../components/DesktopSlider";
 import DesktopMenuBar from "../components/DesktopMenuBar";
+import DiscountForYou from "../components/DiscountForYou";
 
 class App extends React.Component {
 
@@ -16,7 +17,6 @@ class App extends React.Component {
 
         this.toggleSideMenu = this.toggleSideMenu.bind(this);
         this.sideNavCallback = this.sideNavCallback.bind(this);
-
     }
 
     updateCircularProduct() {
@@ -37,7 +37,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="bg-gray-100">
+            <div className="bg-indigo-50">
                 <MetaHeader/>
 
                 <MobileNavigation
@@ -51,6 +51,8 @@ class App extends React.Component {
                 <DesktopMenuBar/>
 
                 <DesktopSlider/>
+
+                <DiscountForYou/>
 
                 <section className="flex flex-nowrap space-x-4 overflow-x-auto py-4 scrollbar-none">
                     {this.state.featuredCategories.map((product, index) =>
