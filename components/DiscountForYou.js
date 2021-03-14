@@ -1,7 +1,7 @@
 import React from 'react';
 import 'swiper/swiper-bundle.css';
-import SwiperCore, {Autoplay, EffectFade, Pagination} from 'swiper/core';
-import Swiper from "swiper";
+import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
+import {Swiper, SwiperSlide} from 'swiper/react';
 
 function PlaceholderShell() {
     return <div className="p-4 h-48 animate-pulse flex space-x-4">
@@ -16,7 +16,7 @@ export default class DiscountForYou extends React.Component {
     render() {
 
         const sliders = [
-            1, 2, 3, 4.5
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10
         ];
 
         return (
@@ -35,45 +35,28 @@ export default class DiscountForYou extends React.Component {
 
                 <hr/>
 
-                <div className="flex justify-even">
-                    <section className="swiper-container h-80 px-2 hidden lg:block">
-                        <div className="swiper-wrapper">
-                            {sliders.map((key, index) => (
-                                    <div className="swiper-slide" key={index}>
-                                        <PlaceholderShell/>
-                                    </div>
-                                )
-                            )}
-                        </div>
+                <div className="w-full p-4">
+                    <Swiper
+                        slidesPerView={6}
+                        navigation
+                        pagination={{clickable: true}}
+                        onSwiper={(swipe) => console.log(swipe)}
+                        onSlideChange={() => console.log('slide change')}
+                    >
+                        {sliders.map((key, index) => (
+                                <SwiperSlide key={index}>
+                                    <PlaceholderShell/>
+                                </SwiperSlide>
+                            )
+                        )}
 
-                        <div className="swiper-pagination"/>
-                    </section>
+                    </Swiper>
                 </div>
             </div>
         )
     };
 
     componentDidMount() {
-        SwiperCore.use([Pagination, Autoplay, EffectFade]);
-
-        let pagination = {
-            el: '.swiper-pagination',
-            clickable: true,
-        };
-
-        new Swiper('.swiper-container', {
-            loop: true,
-            slidesPerView: 6,
-            speed: 1500,
-            autoplay: {
-                delay: 2000
-            },
-            direction: 'horizontal',
-            effect: 'slide',
-            fadeEffect: {
-                crossFade: true
-            },
-            pagination
-        });
+        SwiperCore.use([Navigation, Pagination, Autoplay, A11y]);
     }
 }
