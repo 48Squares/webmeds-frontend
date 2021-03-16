@@ -1,4 +1,5 @@
 # Webmeds
+######[webmeds](https://webmeds.in)
 
 ###### Dev
 ```bash
@@ -10,4 +11,7 @@ yarn dev
 pm2 start yarn --name "meds" -- start
 ```
 
-[webmeds](https://webmeds.in)
+###### Apache Benchmark
+```bash
+ab -n 100 -c 10 http://webmeds.in:3000/
+```

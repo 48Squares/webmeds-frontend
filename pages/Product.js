@@ -70,10 +70,10 @@ function Product({product}) {
 
                     <div>
                         <div className="flex items-center space-x-1 mt-1 py-3">
-                                            <span className="text-3xl">
-                                                <span className="text-3xl">&#8377;</span>
-                                                {product.price}
-                                            </span>
+                            <div className="text-3xl">
+                                <span className="text-3xl">&#8377;</span>
+                                {product.price}
+                            </div>
 
                             <span
                                 className="text-xs line-through text-gray-500">{product.original_price}</span>
