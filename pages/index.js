@@ -26,13 +26,13 @@ class App extends React.Component {
     }
 
     updateCircularProduct() {
-        fetch('http://localhost:8000/api/home')
-            .then(response => response.json())
-            .then(json => this.setState({...json.data}));
+        // fetch('http://localhost:8000/api/home')
+        //     .then(response => response.json())
+        //     .then(json => this.setState({...json.data}));
     }
 
     sideNavCallback() {
-        this.setState({sideNav: false});
+        this.setState({ sideNav: false });
     }
 
     toggleSideMenu() {
@@ -44,7 +44,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="bg-indigo-50">
-                <MetaHeader/>
+                <MetaHeader />
 
                 <MobileNavigation
                     sideNav={this.state.sideNav}
@@ -52,31 +52,31 @@ class App extends React.Component {
                     onClick={this.toggleSideMenu}
                 />
 
-                <DesktopNavigation/>
+                <DesktopNavigation />
 
-                <DesktopMenuBar/>
+                <DesktopMenuBar />
 
-                <DesktopSlider/>
+                <DesktopSlider />
 
-                <DiscountForYou/>
+                <DiscountForYou />
 
-                <TrendingBrands/>
+                <TrendingBrands />
 
-                <TrendingProducts/>
+                <TrendingProducts />
 
-                <FeaturedBrands/>
+                <FeaturedBrands />
 
-                <section className="flex flex-nowrap space-x-4 overflow-x-auto py-1 scrollbar-none">
+                {/* <section className="flex flex-nowrap space-x-4 overflow-x-auto py-1 scrollbar-none">
                     {this.state.featuredCategories.map((product, index) =>
-                        <img className="w-20 h-20 rounded-full" src={product.url} alt="" key={index}/>
+                        <img className="w-20 h-20 rounded-full" src={product.url} alt="" key={index} />
                     )}
-                </section>
+                </section> */}
 
-                <Banner/>
+                <Banner />
 
-                <HomePageSeo/>
+                <HomePageSeo />
 
-                <CopyRight/>
+                <CopyRight />
 
             </div>
         );
