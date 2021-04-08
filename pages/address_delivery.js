@@ -64,6 +64,38 @@ export default function Home() {
         <div className="mt-6">
           <p className="text-regal-blue text-sm">+Add Nearby Famous Shop/Mail/Landmark</p>
         </div>
+        <div className="mt-6">
+          <label className="text-gray-300 text-xl">Type of addess</label>
+        </div>
+
+
+
+        <div className="flex">
+          <div className="  h-12 w-36   flex">
+
+            <button className="text-xl flex border-2 rounded-2xl w-full focus:outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-4 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+              <span className="text-xl mt-2">Home</span>
+
+            </button>
+          </div>
+          <div className="rounded-2xl h-12 w-36  border border-2 mx-6 flex">
+
+            <button className="text-xl flex w-full focus:outline-none rounded-2xl">
+
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-4 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+              </svg>
+              <span className="text-xl mt-2">   Work</span>
+
+            </button>
+
+          </div>
+        </div>
+
+
 
       </div>
     </div>
