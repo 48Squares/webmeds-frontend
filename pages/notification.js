@@ -1,19 +1,23 @@
+import Link from 'next/link'
 export default function Home() {
     return (
 
         <div className="h-screen w-screen bg-gray-200 ">
             <div className="h-8 w-full bg-blue-700">
                 <div className="flex">
-                    <a href="#">   <svg className="text-white h-4 w-4 mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                    </svg></a>
+                    <Link href="/">
+                        <a>   <svg className="text-white h-4 w-4 mt-2 ml-2" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                        </svg></a>
+                    </Link>
                     <span className="px-3 py-1  text-white">Notification</span>
                     <div className="flex-grow mt-2 mr-4">
-
-                        <a href="#">
-                            <svg className="text-white h-4 w-4 float-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                            </svg></a>
+                        <Link href="/">
+                            <a>
+                                <svg className="text-white h-4 w-4 float-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg></a>
+                        </Link>
                     </div>
                 </div>
             </div>

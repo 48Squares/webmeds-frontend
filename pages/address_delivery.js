@@ -1,5 +1,5 @@
 import MobileHeader from '../components/MobileHeader';
-
+import Link from 'next/link'
 export default function Home() {
   return (
 
@@ -15,23 +15,29 @@ export default function Home() {
 
         </div>
       </div>
-      <div className="h-auto w-96 bg-teal-700 mt-6   px-4">
+      <div className="h-auto w-96 bg-teal-700 mt-6   px-4 ml-4">
         <input type="text" name="name" placeholder="  Full Name(Required)*" className=" px-2 outline-none rounded h-12   w-full border border-gray-200 " />
         <input type="text" name="name" placeholder=" Phone number(Required)*" className="  px-2 outline-none rounded h-12 w-full border border-gray-200 mt-6" />
-        <p className="text-regal-blue mt-4 text-sm">+Add Alter Phone Number</p>
+        <Link href="/">
+          <a>
+            <p className="text-regal-blue mt-4 text-sm">+Add Alter Phone Number</p>
+          </a>
+        </Link>
         <div className="flex justify-between mt-4">
           <div>
-            <input className="px-2 border-2 w-40 h-12 rounded outline-none" type="text" placeholder=" Pincode(Required)*" />
+            <input className="px-1 border w-40 h-12 rounded outline-none" type="text" placeholder=" Pincode(Required)*" />
           </div>
-          <a href="">
-            <div className="flex bg-regal-blue h-8 w-44 mt-3 rounded">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 text-white ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <p className="text-white mt-1 text-sm ml-1">Use my location</p>
-            </div>
-          </a>
+          <Link href="/">
+            <a >
+              <div className="flex bg-regal-blue h-8 w-44 mt-3 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 text-white ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <p className="text-white mt-1 text-sm ml-1">Use my location</p>
+              </div>
+            </a>
+          </Link>
         </div>
 
 
@@ -62,7 +68,11 @@ export default function Home() {
         </div>
 
         <div className="mt-6">
-          <p className="text-regal-blue text-sm">+Add Nearby Famous Shop/Mail/Landmark</p>
+          <Link href="/">
+            <a>
+              <p className="text-regal-blue text-sm">+Add Nearby Famous Shop/Mail/Landmark</p>
+            </a>
+          </Link>
         </div>
         <div className="mt-6">
           <label className="text-gray-300 text-xl">Type of addess</label>
@@ -88,14 +98,15 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-4 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
               </svg>
-              <span className="text-xl mt-2">   Work</span>
+              <span className="text-xl mt-2">Work</span>
 
             </button>
-
           </div>
         </div>
 
-
+        <div className="">
+          <button className=" bg-regal-blue h-12 w-full  mt-2  border border-red mb-1  text-white">Save Address</button>
+        </div>
 
       </div>
     </div>
