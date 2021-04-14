@@ -25,12 +25,6 @@ class App extends React.Component {
         this.sideNavCallback = this.sideNavCallback.bind(this);
     }
 
-    updateCircularProduct() {
-        // fetch('http://localhost:8000/api/home')
-        //     .then(response => response.json())
-        //     .then(json => this.setState({...json.data}));
-    }
-
     sideNavCallback() {
         this.setState({ sideNav: false });
     }
@@ -80,10 +74,6 @@ class App extends React.Component {
 
             </div>
         );
-    }
-
-    componentDidMount() {
-        this.updateCircularProduct();
     }
 }
 
