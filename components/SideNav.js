@@ -80,15 +80,17 @@ function SideNav(props) {
                     <span className="text-black text-sm font-medium">My Coupons</span>
                 </div>
 
-                <div className="flex items-center space-x-2 my-2">
-                    <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                    </svg>
+                <Link href="/EmptyCart">
+                    <div className="flex items-center space-x-2 my-2">
+                        <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
 
-                    <span className="text-black text-sm font-medium">My Cart</span>
-                </div>
+                        <span className="text-black text-sm font-medium">My Cart</span>
+                    </div>
+                </Link>
 
                 <div className="flex items-center space-x-2 my-2">
                     <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -101,7 +103,7 @@ function SideNav(props) {
                 </div>
 
                 <div className="flex items-center space-x-2 my-2">
-                    <Link href='/user/profile'>
+                    <Link href='/Profile'>
                         <div className="flex items-center space-x-2">
                             <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
