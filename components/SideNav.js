@@ -45,15 +45,17 @@ function SideNav(props) {
                     </Link>
                 </div>
 
-                <div className="flex items-center space-x-2 my-2">
-                    <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
-                    </svg>
+                <Link href="/my-offer">
+                    <div className="flex items-center space-x-2 my-2">
+                        <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                        </svg>
 
-                    <span className="text-black text-sm font-medium">Offers</span>
-                </div>
+                        <span className="text-black text-sm font-medium">Offers</span>
+                    </div>
+                </Link>
 
                 <hr className="my-2" />
 
@@ -70,15 +72,17 @@ function SideNav(props) {
                     </div>
                 </Link>
 
-                <div className="flex items-center space-x-2 my-2">
-                    <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" />
-                    </svg>
+                <Link href="/my-coupon">
+                    <div className="flex items-center space-x-2 my-2">
+                        <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" />
+                        </svg>
 
-                    <span className="text-black text-sm font-medium">My Coupons</span>
-                </div>
+                        <span className="text-black text-sm font-medium">My Coupons</span>
+                    </div>
+                </Link>
 
                 <Link href="/EmptyCart">
                     <div className="flex items-center space-x-2 my-2">
@@ -92,15 +96,17 @@ function SideNav(props) {
                     </div>
                 </Link>
 
-                <div className="flex items-center space-x-2 my-2">
-                    <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                <Link href="/my-wishlist">
+                    <div className="flex items-center space-x-2 my-2">
+                        <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
 
-                    <span className="text-black text-sm font-medium">My Wishlist</span>
-                </div>
+                        <span className="text-black text-sm font-medium">My Wishlist</span>
+                    </div>
+                </Link>
 
                 <div className="flex items-center space-x-2 my-2">
                     <Link href='/Profile'>
@@ -129,15 +135,17 @@ function SideNav(props) {
                 </Link>
                 <hr className="my-2" />
 
-                <div className="flex items-center space-x-2 my-2">
-                    <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                            d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                    </svg>
+                <Link href="/help-center">
+                    <div className="flex items-center space-x-2 my-2">
+                        <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
 
-                    <span className="text-black text-sm font-medium">Help Center</span>
-                </div>
+                        <span className="text-black text-sm font-medium">Help Center</span>
+                    </div>
+                </Link>
 
                 <div>
                     <Link href="/legals">
