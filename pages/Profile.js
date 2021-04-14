@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../../components/Header";
+import Header from "../components/Header";
 
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ export default class Profile extends React.Component {
     render() {
         return (
             <div className="bg-white mb-8">
-                <Header title={'My Account'}/>
+                <Header title={'My Account'} />
 
                 <div className="mb-8">
 
@@ -24,7 +24,7 @@ export default class Profile extends React.Component {
                                     viewBox="0 0 24 24"
                                     stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                                 </svg>
                             </button>
                         </div>
@@ -82,14 +82,14 @@ export default class Profile extends React.Component {
                         <div className="mt-4">
                             <div className="py-1">
                                 <Link href="/user/change_password"
-                                      className="py-2 text-md text-gray-600">
+                                    className="py-2 text-md text-gray-600">
                                     Change Password
                                 </Link>
                             </div>
 
                             <div className="py-1">
                                 <Link href="user/deactivate_account"
-                                      className="py-2 text-md text-gray-600">
+                                    className="py-2 text-md text-gray-600">
                                     Deactivate Account
                                 </Link>
                             </div>
