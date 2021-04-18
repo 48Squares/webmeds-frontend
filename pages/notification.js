@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import React from "react";
 export default function Home() {
     return (
 
@@ -22,7 +23,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="h-36 w-48 m-auto mt-12">
-                <img className="h-36 w-48" src={"https://images.unsplash.com/photo-1580907009323-2d2336cbf1e0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"} />
+                <img className="h-36 w-48" src={"https://images.unsplash.com/photo-1580907009323-2d2336cbf1e0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"}  alt=""/>
             </div>
 
             <div>
