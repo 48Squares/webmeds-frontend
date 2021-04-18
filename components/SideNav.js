@@ -84,7 +84,7 @@ function SideNav(props) {
                     </div>
                 </Link>
 
-                <Link href="/EmptyCart">
+                <Link href="/cart">
                     <div className="flex items-center space-x-2 my-2">
                         <svg className="w-6 h-6 text-regal-blue" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
