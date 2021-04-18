@@ -4,6 +4,10 @@ import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 export default class DiscountForYou extends React.Component {
+    /**
+     * Pagination formula: |totalSlides - slidersPerView| + 1
+     * @returns {*}
+     */
     render() {
         const products = [
             '/products/1.jpg',
@@ -36,19 +40,19 @@ export default class DiscountForYou extends React.Component {
                     <Swiper
                         autoplay={true}
                         slidesPerView={3}
+                        loop={true}
                         pagination={{clickable: true}}
                     >
                         {products.map((key, index) => (
                                 <SwiperSlide key={index}>
-                                    <div className="p-4 h-48 flex space-x-4 relative">
+                                    <div className="h-48 relative mr-1">
                                         <img
-                                            className="absolute inset w-full h-full object-cover"
+                                            className="absolute rounded inset w-full h-full object-cover"
                                             src={key} alt=""/>
                                     </div>
                                 </SwiperSlide>
                             )
                         )}
-
                     </Swiper>
                 </div>
             </div>
