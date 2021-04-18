@@ -2,6 +2,7 @@ import React from 'react';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
+import Link from "next/link";
 
 export default class DiscountForYou extends React.Component {
     /**
@@ -28,9 +29,12 @@ export default class DiscountForYou extends React.Component {
                     </div>
 
                     <div>
-                        <a href=""
-                           className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">View
-                            More</a>
+                        <Link href="/discounts">
+                            <a
+                                className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">View
+                                More
+                            </a>
+                        </Link>
                     </div>
                 </div>
 
