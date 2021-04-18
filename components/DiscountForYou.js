@@ -3,20 +3,17 @@ import 'swiper/swiper-bundle.css';
 import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
-function PlaceholderShell() {
-    return <div className="p-4 h-48 animate-pulse flex space-x-4">
-        <div className="flex flex-col justify-center items-center">
-            <div className="bg-gray-100 w-48 h-full">&nbsp;
-            </div>
-            <span className="bg-gray-100 w-full h-8 mt-2">&nbsp;</span></div>
-    </div>;
-}
-
 export default class DiscountForYou extends React.Component {
     render() {
-
-        const sliders = [
-            1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        const products = [
+            '/products/1.jpg',
+            '/products/2.jpg',
+            '/products/3.jpg',
+            '/products/4.jpg',
+            '/products/5.jpg',
+            '/products/6.jpg',
+            '/products/7.jpg',
+            '/products/8.jpg',
         ];
 
         return (
@@ -37,15 +34,17 @@ export default class DiscountForYou extends React.Component {
 
                 <div className="w-full p-4">
                     <Swiper
-                        slidesPerView={6}
-                        navigation
+                        autoplay={true}
+                        slidesPerView={3}
                         pagination={{clickable: true}}
-                        onSwiper={(swipe) => console.log(swipe)}
-                        onSlideChange={() => console.log('slide change')}
                     >
-                        {sliders.map((key, index) => (
+                        {products.map((key, index) => (
                                 <SwiperSlide key={index}>
-                                    <PlaceholderShell/>
+                                    <div className="p-4 h-48 flex space-x-4 relative">
+                                        <img
+                                            className="absolute inset w-full h-full object-cover"
+                                            src={key} alt=""/>
+                                    </div>
                                 </SwiperSlide>
                             )
                         )}
