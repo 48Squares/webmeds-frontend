@@ -1,14 +1,9 @@
 import React from "react";
 
-class SEO extends React.Component {
+export default function SEO() {
+    return (
+        <div>
 
-    render() {
-        return (
-            <div>
-
-            </div>
-        );
-    }
+        </div>
+    );
 }
-
-export default SEO;

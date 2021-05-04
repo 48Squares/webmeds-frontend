@@ -1,11 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-
 import Link from "next/link";
 
-/**
- * Show profile of user
- */
 export default class Profile extends React.Component {
 
     render() {

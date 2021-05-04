@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function ordersummary() {
     return (
         <div className="bg-gray-200 h-screen">

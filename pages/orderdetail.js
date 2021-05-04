@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function orderdetail() {
     return (
         <div className="bg-gray-200 ">

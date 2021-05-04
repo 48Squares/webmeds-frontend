@@ -2,21 +2,23 @@ import React from 'react';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
-
-function PlaceholderShell() {
-    return <div className="p-4 h-48 animate-pulse flex space-x-4">
-        <div className="flex flex-col justify-center items-center">
-            <div className="bg-gray-100 w-48 h-full">&nbsp;
-            </div>
-            <span className="bg-gray-100 w-full h-8 mt-2">&nbsp;</span></div>
-    </div>;
-}
+import Link from "next/link";
 
 export default class DiscountForYou extends React.Component {
+    /**
+     * Pagination formula: |totalSlides - slidersPerView| + 1
+     * @returns {*}
+     */
     render() {
-
-        const sliders = [
-            1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        const products = [
+            '/products/1.jpg',
+            '/products/2.jpg',
+            '/products/3.jpg',
+            '/products/4.jpg',
+            '/products/5.jpg',
+            '/products/6.jpg',
+            '/products/7.jpg',
+            '/products/8.jpg',
         ];
 
         return (
@@ -27,9 +29,12 @@ export default class DiscountForYou extends React.Component {
                     </div>
 
                     <div>
-                        <a href=""
-                           className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">View
-                            More</a>
+                        <Link href="/discounts">
+                            <a
+                                className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">View
+                                More
+                            </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -37,19 +42,21 @@ export default class DiscountForYou extends React.Component {
 
                 <div className="w-full p-4">
                     <Swiper
-                        slidesPerView={6}
-                        navigation
+                        autoplay={true}
+                        slidesPerView={3}
+                        loop={true}
                         pagination={{clickable: true}}
-                        onSwiper={(swipe) => console.log(swipe)}
-                        onSlideChange={() => console.log('slide change')}
                     >
-                        {sliders.map((key, index) => (
+                        {products.map((key, index) => (
                                 <SwiperSlide key={index}>
-                                    <PlaceholderShell/>
+                                    <div className="h-48 relative mr-1">
+                                        <img
+                                            className="absolute rounded inset w-full h-full object-cover"
+                                            src={key} alt=""/>
+                                    </div>
                                 </SwiperSlide>
                             )
                         )}
-
                     </Swiper>
                 </div>
             </div>
