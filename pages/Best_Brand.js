@@ -40,7 +40,7 @@ export default function Best_Brand() {
                 <div className="h-56 w-100  flex">
                     <div className="h-56 w-50% border-r  ">
                         <img src={"/earphone.jpg"} className="mt-4 h-36" alt=""/>
-                        <spna className="mx-4">Roti Maker</spna>
+                        <span className="mx-4">Roti Maker</span>
                         <br/>
                         <Link href="/">
                             <a> <span className="text-green-400 mx-3">UP to 75% Off</span></a>
