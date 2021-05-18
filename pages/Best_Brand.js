@@ -39,7 +39,7 @@ export default function Best_Brand() {
                 <hr/>
                 <div className="h-56 w-100  flex">
                     <div className="h-56 w-50% border-r  ">
-                        <img src={"/earphone.jpg"} className="mt-4 h-36" alt={}/>
+                        <img src={"/earphone.jpg"} className="mt-4 h-36" alt=""/>
                         <spna className="mx-4">Roti Maker</spna>
                         <br/>
                         <Link href="/">
@@ -48,7 +48,7 @@ export default function Best_Brand() {
                     </div>
 
                     <div className="h-56 w-50% ">
-                        <img src={"/bag.jpg"} className="h-36  mt-4" alt={}/>
+                        <img src={"/bag.jpg"} className="h-36  mt-4" alt=""/>
                         <span className="mx-6">Sling Bags</span><br/>
                         <Link href="/">
                             <a> <span className="text-green-400 mx-4">Mine 80% Off</span></a>
