@@ -1,75 +1,71 @@
 import React from "react";
 
+export default function DesktopMenuBar() {
+    const image = '/menu/1.png';
 
-export default class DesktopMenuBar extends React.Component {
-
-    render() {
-        const image = '/menu/1.png';
-
-        return (
-            <nav className="bg-white shadow-md mb-2">
-                <header className="px-3 py-1 flex justify-around">
-                    <div className="flex flex-col justify-center">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
-                        
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
+    return (
+        <nav className="bg-white shadow-md mb-2">
+            <header className="px-3 py-1 flex justify-around">
+                <div className="flex flex-col justify-center">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
                     </div>
 
-                    <div className="flex flex-col justify-center ">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
 
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
+                <div className="flex flex-col justify-center ">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
                     </div>
 
-                    <div className="flex flex-col justify-center ">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
 
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
-                    </div>
-                    <div className="flex flex-col justify-center ">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
-
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
+                <div className="flex flex-col justify-center ">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
                     </div>
 
-                    <div className="flex flex-col justify-center ">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
 
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
+                <div className="flex flex-col justify-center ">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
                     </div>
 
-                    <div className="flex flex-col justify-center ">
-                        <div>
-                            <img src={image} alt="" width="64px"/>
-                        </div>
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
 
-                        <p className="text-sm text-gray-800 font-medium leading-none">
-                            Top Offers
-                        </p>
+                <div className="flex flex-col justify-center ">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
                     </div>
-                </header>
-            </nav>
-        );
-    }
+
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
+
+                <div className="flex flex-col justify-center ">
+                    <div>
+                        <img src={image} alt="" width="64px"/>
+                    </div>
+
+                    <p className="text-sm text-gray-800 font-medium leading-none hidden md:block">
+                        Top Offers
+                    </p>
+                </div>
+            </header>
+        </nav>
+    );
 }
-
