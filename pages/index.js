@@ -36,13 +36,6 @@ class App extends React.Component {
     }
 
 
-    componentDidMount() {
-        const products = fetch('http://localhost:8000/test')
-            .then(res => res.json())
-            .then(json => json);
-
-
-    }
 
     render() {
         return (

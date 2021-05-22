@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export default function MetaHeader() {
     return (
-        <div>
+        <>
             <Head>
                 <meta name="twitter:card" content="product"/>
                 <meta name="twitter:site" content="@publisher_handle"/>
@@ -20,6 +20,6 @@ export default function MetaHeader() {
                 <meta key="description"
                       content="Webmeds is multivendor medical platform allowing every medical vendor to sell medicine with peace of mind."/>
             </Head>
-        </div>
+        </>
     );
 }
