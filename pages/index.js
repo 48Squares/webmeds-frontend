@@ -35,8 +35,6 @@ class App extends React.Component {
         });
     }
 
-
-
     render() {
         return (
             <div className="bg-indigo-50">

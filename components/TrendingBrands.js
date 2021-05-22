@@ -8,7 +8,8 @@ function PlaceholderShell() {
         <div className="flex flex-col justify-center items-center">
             <div className="bg-gray-100 w-48 h-full">&nbsp;
             </div>
-            <span className="bg-gray-100 w-full h-8 mt-2">&nbsp;</span></div>
+            <span className="bg-gray-100 w-full h-8 mt-2">&nbsp;</span>
+        </div>
     </div>;
 }
 
@@ -42,8 +43,6 @@ export default class TrendingBrands extends React.Component {
                         slidesPerView={6}
                         navigation
                         pagination={{clickable: true}}
-                        onSwiper={(swipe) => console.log(swipe)}
-                        onSlideChange={() => console.log('slide change')}
                     >
                         {sliders.map((key, index) => (
                                 <SwiperSlide key={index}>
@@ -51,7 +50,6 @@ export default class TrendingBrands extends React.Component {
                                 </SwiperSlide>
                             )
                         )}
-
                     </Swiper>
                 </div>
             </div>

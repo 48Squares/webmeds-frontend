@@ -91,7 +91,7 @@ export default function payments() {
                         <p className="text-xl mt-2">EMI(Easy Installments)</p>
 
                     </div>
-                    <span className="mt-6 ml-8 ">Unavailabel</span>
+                    <span className="mt-6 ml-8 ">Unavailable</span>
                     <div className="relative">
                         <div className="h-5 w-5 bg-gray-700 rounded-full  mr-6 mt-7 "></div>
                         <p className="absolute top-0 left-0  mt-6 ml-2 h-1  text-white">?</p>

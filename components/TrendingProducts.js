@@ -42,8 +42,6 @@ export default class TrendingProducts extends React.Component {
                         slidesPerView={6}
                         navigation
                         pagination={{clickable: true}}
-                        onSwiper={(swipe) => console.log(swipe)}
-                        onSlideChange={() => console.log('slide change')}
                     >
                         {sliders.map((key, index) => (
                                 <SwiperSlide key={index}>
