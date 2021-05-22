@@ -10,17 +10,6 @@ export default class DiscountForYou extends React.Component {
      * @returns {*}
      */
     render() {
-        const products = [
-            '/products/1.jpg',
-            '/products/2.jpg',
-            '/products/3.jpg',
-            '/products/4.jpg',
-            '/products/5.jpg',
-            '/products/6.jpg',
-            '/products/7.jpg',
-            '/products/8.jpg',
-        ];
-
         return (
             <div className="bg-white py-2 mt-2 shadow">
                 <div className="flex justify-between p-4 items-center">
@@ -47,12 +36,12 @@ export default class DiscountForYou extends React.Component {
                         loop={true}
                         pagination={{clickable: true}}
                     >
-                        {products.map((key, index) => (
+                        {this.props.products.map((key, index) => (
                                 <SwiperSlide key={index}>
                                     <div className="h-48 relative mr-1">
                                         <img
                                             className="absolute rounded inset w-full h-full object-cover"
-                                            src={key} alt=""/>
+                                            src={key.image} alt=""/>
                                     </div>
                                 </SwiperSlide>
                             )

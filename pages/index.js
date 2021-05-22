@@ -12,17 +12,24 @@ import Banner from "../components/Banners/Banner";
 import HomePageSeo from "../components/Seo/HomePageSeo";
 import CopyRight from "../components/etc/CopyRight";
 
-class App extends React.Component {
+export default class App extends React.Component {
 
+    /**
+     * @property data
+     * @param props
+     */
     constructor(props) {
         super(props);
         this.state = {
             sideNav: false,
-            featuredCategories: []
+            data: props.home,
+            featuredCategories: [],
         };
 
         this.toggleSideMenu = this.toggleSideMenu.bind(this);
         this.sideNavCallback = this.sideNavCallback.bind(this);
+
+        console.log(this.state);
     }
 
     sideNavCallback() {
@@ -52,7 +59,7 @@ class App extends React.Component {
 
                 <DesktopSlider/>
 
-                <DiscountForYou/>
+                <DiscountForYou products={this.state.data.featuredProducts}/>
 
                 <TrendingBrands/>
 
@@ -77,4 +84,14 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export async function getStaticProps() {
+    const data = await fetch('http://mgmt.webmeds.in/api/home')
+        .then(res => res.json())
+        .then(json => json.data);
+
+    return {
+        props: {
+            home: data
+        }
+    };
+}
