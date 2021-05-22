@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import MetaHeader from "../components/MetaHeader";
 import DesktopNavigation from "../components/DesktopNavigation";
 import MobileNavigation from "../components/MobileNavigation";
@@ -12,76 +12,52 @@ import Banner from "../components/Banners/Banner";
 import HomePageSeo from "../components/Seo/HomePageSeo";
 import CopyRight from "../components/etc/CopyRight";
 
-export default class App extends React.Component {
+export default function App({featuredProducts}) {
+    const [sideNav, setSideNav] = useState(false);
+    const [discountForYou, setDiscountForYou] = useState(featuredProducts);
 
-    /**
-     * @property data
-     * @param props
-     */
-    constructor(props) {
-        super(props);
-        this.state = {
-            sideNav: false,
-            data: props.home,
-            featuredCategories: [],
-        };
-
-        this.toggleSideMenu = this.toggleSideMenu.bind(this);
-        this.sideNavCallback = this.sideNavCallback.bind(this);
-
-        console.log(this.state);
+    const sideNavCallback = function () {
+        setSideNav(false);
     }
 
-    sideNavCallback() {
-        this.setState({sideNav: false});
-    }
+    return (
+        <div className="bg-indigo-50">
+            <MetaHeader/>
 
-    toggleSideMenu() {
-        this.setState({
-            sideNav: !this.state.sideNav
-        });
-    }
+            <MobileNavigation
+                sideNav={sideNav}
+                callback={sideNavCallback}
+                onClick={() => setSideNav(!sideNav)}
+            />
 
-    render() {
-        return (
-            <div className="bg-indigo-50">
-                <MetaHeader/>
+            <DesktopNavigation/>
 
-                <MobileNavigation
-                    sideNav={this.state.sideNav}
-                    callback={this.sideNavCallback}
-                    onClick={this.toggleSideMenu}
-                />
+            <DesktopMenuBar/>
 
-                <DesktopNavigation/>
+            <DesktopSlider/>
 
-                <DesktopMenuBar/>
+            <DiscountForYou products={discountForYou}/>
 
-                <DesktopSlider/>
+            <TrendingBrands/>
 
-                <DiscountForYou products={this.state.data.featuredProducts}/>
+            <TrendingProducts/>
 
-                <TrendingBrands/>
+            <FeaturedBrands/>
 
-                <TrendingProducts/>
+            {/*<section className="flex flex-nowrap space-x-4 overflow-x-auto py-1 scrollbar-none">*/}
+            {/*    {this.state.featuredCategories.map((product, index) =>*/}
+            {/*        <img className="w-20 h-20 rounded-full" src={product.url} alt="" key={index}/>*/}
+            {/*    )}*/}
+            {/*</section>*/}
 
-                <FeaturedBrands/>
+            <Banner/>
 
-                <section className="flex flex-nowrap space-x-4 overflow-x-auto py-1 scrollbar-none">
-                    {this.state.featuredCategories.map((product, index) =>
-                        <img className="w-20 h-20 rounded-full" src={product.url} alt="" key={index}/>
-                    )}
-                </section>
+            <HomePageSeo/>
 
-                <Banner/>
+            <CopyRight/>
 
-                <HomePageSeo/>
-
-                <CopyRight/>
-
-            </div>
-        );
-    }
+        </div>
+    );
 }
 
 export async function getStaticProps() {
@@ -91,7 +67,7 @@ export async function getStaticProps() {
 
     return {
         props: {
-            home: data
+            ...data
         }
     };
 }
