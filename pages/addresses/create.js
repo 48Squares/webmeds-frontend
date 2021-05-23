@@ -94,17 +94,21 @@ export default function CreateAddress() {
                     </div>
 
                     <div className="space-x-2 mt-4">
-                        <button type="button" className="px-3 py-1 bg-white text-sm rounded border shadow">Home
+                        <button type="button"
+                                className="px-3 py-1 bg-white text-sm rounded border shadow focus:outline-none focus:ring-2 focus:ring-regal-blue">
+                            Home
                         </button>
 
-                        <button type="button" className="px-3 py-1 bg-white text-sm rounded border shadow">Office
+                        <button type="button"
+                                className="px-3 py-1 bg-white text-sm rounded border shadow focus:outline-none focus:ring-2 focus:ring-regal-blue">
+                            Office
                         </button>
                     </div>
 
                     <div className="relative mt-2 h-10">
                         <button
                             type="submit"
-                            className="absolute top-2 left-0 w-full bg-red-500 px-4 py-4 focus:ring hover:ring rounded-sm text-white focus:outline-none text-sm uppercase">
+                            className="absolute top-2 left-0 w-full bg-regal-blue px-4 py-4 focus:ring hover:ring rounded-sm text-white focus:outline-none text-md  uppercase">
                             Save Address
                         </button>
                     </div>

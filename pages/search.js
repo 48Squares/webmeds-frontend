@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link';
+import Router from "next/router";
 
 class Search extends React.Component {
 
@@ -12,13 +12,13 @@ class Search extends React.Component {
             <div>
                 <div className="px-2 py-2 bg-white">
                     <div className="flex bg-white h-10 items-center rounded-sm space-x-2">
-                        <Link href="/">
+                        <div onClick={() => Router.back()}>
                             <svg className="w-6 h-6 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                       d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
                             </svg>
-                        </Link>
+                        </div>
 
                         <input
                             className="flex-grow h-full py-4 text-gray-600 text-sm hover:outline-none focus:outline-none"

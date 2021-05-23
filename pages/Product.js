@@ -1,5 +1,7 @@
 import React from "react";
 import Link from 'next/link';
+import Router from 'next/router';
+import ProductSlider from "../components/ProductSlider";
 
 function Product({product}) {
     return (
@@ -7,7 +9,7 @@ function Product({product}) {
             <div className="bg-regal-blue z-20">
                 <div className="flex justify-between px-2 py-4">
                     <div className="flex items-center space-x-2">
-                        <button>
+                        <button onClick={() => Router.back()}>
                             <svg className="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -34,16 +36,16 @@ function Product({product}) {
                         </Link>
 
                         <span className="cursor-pointer">
-                                <Link className="text-white" href='/login'>
-                                    Login
+                                <Link href='/login'>
+                                    <span className="text-white">Login</span>
                                 </Link>
                         </span>
                     </div>
                 </div>
             </div>
 
-            <div className="bg-white">
-                {/*<ProductSlider media={product.media}/>*/}
+            <div className="bg-white h-48">
+                <ProductSlider media={product.media}/>
             </div>
 
             <div className="bg-white my-2">
