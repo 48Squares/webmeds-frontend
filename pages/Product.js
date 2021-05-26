@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Router from 'next/router';
 import ProductSlider from "../components/ProductSlider";
 
-function Product({product}) {
+export default function Product({product}) {
     return (
         <div className="bg-gray-50 bg-opacity-8">
             <div className="bg-regal-blue z-20">
@@ -77,8 +77,7 @@ function Product({product}) {
                                 {product.price}
                             </div>
 
-                            <span
-                                className="text-xs line-through text-gray-500">{product.original_price}</span>
+                            <span className="text-xs line-through text-gray-500">{product.original_price}</span>
                             <span className="text-green-500 text-xs">{product.discount} off</span>
                         </div>
 
@@ -154,5 +153,3 @@ export async function getStaticProps() {
         }
     }
 }
-
-export default Product;
