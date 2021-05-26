@@ -10,21 +10,32 @@ export default function payments() {
                 </svg></a>
                 <span className="px-3 py-1  text-white  ">Payments</span>
             </div>
-            <div className="h-20 bg-red-300 flex ">
-                <div className="py-1 px-10 ">
-                    <div className="h-10 w-10  mt-3 inline-block  flex justify-center rounded-full border-2 bg-gray-400">
-                        <span className="mt-1 inline-block">1</span>
+
+            <div className="h-24 bg-red-300  flex">
+                <div className="py-5 px-8">
+                    <div className="h-8 w-8 bg-gray-600 rounded-full">
+                        <span className="text-white mx-2  text-xl my-4">1</span>
                     </div>
                     <span>Address</span>
                 </div>
-                <hr className="h-2 w-32 mt-8 pr-8 bg-blue-900" />
-                <div className="py-1 px-4 ">
-                    <div className="h-10 w-10  mt-3 inline-block  flex justify-center rounded-full border-2 bg-gray-400">
-                        <span className="mt-1 inline-block">1</span>
+                <div className="h-1 w-12 bg-gray-700 my-auto"></div>
+                <div className="py-5 px-8">
+                    <div className="h-8 w-8 bg-gray-600 rounded-full">
+                        <span className="text-white mx-2  text-xl my-4">2</span>
                     </div>
-                    <span className="mr-4">Order Summary</span>
+                    <span>Order</span>
+
+                </div>
+                <div className="h-1 w-12 bg-gray-700 my-auto"></div>
+                <div className="py-5 px-8">
+                    <div className="h-8 w-8 bg-gray-600 rounded-full">
+                        <span className="text-white mx-2  text-xl my-4">3</span>
+                    </div>
+                    <span>Payment</span>
                 </div>
             </div>
+
+
             <div className="h-32 bg-gray-100 mt-3 ">
                 <div className="flex">
                     <div>
@@ -42,7 +53,7 @@ export default function payments() {
                 <hr className=" r= mt-4 bg-white" />
                 <Link href="/">
                     <a>
-                        <p className="mx-28 mt-4 text-blue-600">View All Offres</p>
+                        <p className="mx-40 mt-4 text-blue-600">View All Offres</p>
                     </a>
                 </Link>
             </div>
@@ -51,7 +62,7 @@ export default function payments() {
                 <p className="text-sm mx-4 pt-6 ">All Other Options</p>
                 <div className="flex">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p className="text-xl mt-2">UPI</p>
+                    <p className="text-md mt-2">UPI</p>
                     <div className="flex-grow px-4">
                         <img src={"/paytmlogo.png"} className="h-6 w-8 float-right" />
                     </div>
@@ -60,7 +71,7 @@ export default function payments() {
 
                 <div className="flex mt-4">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p className="text-xl mt-2">Wallets</p>
+                    <p className="text-md mt-2">Wallets</p>
                     <div className="flex-grow px-4">
                         <img src={"/paytmlogo.png"} className="h-6 w-8 float-right" />
                     </div>
@@ -68,19 +79,19 @@ export default function payments() {
                 <hr className=" mt-6" />
                 <div className="flex mt-4">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p className="text-xl mt-2">Credit/Debit/ATM Card</p>
+                    <p className="text-md mt-2">Credit/Debit/ATM Card</p>
                 </div>
 
                 <hr className=" mt-6" />
                 <div className="flex mt-4">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p clas sName="text-xl mt-2">Net Banking</p>
+                    <p clas sName="text-md mt-2">Net Banking</p>
                 </div>
                 <hr className=" mt-6" />
 
                 <div className="flex mt-4">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p className="text-xl mt-2">Cash on Delivery</p>
+                    <p className="text-md mt-2">Cash on Delivery</p>
                 </div>
                 <p className="text-xs mx-14">Safety Tip:Avoid cash or card at delivery.Use any method above to pay now.</p>
                 <hr className=" mt-6" />
@@ -88,7 +99,7 @@ export default function payments() {
                 <div className="flex justify-between ">
                     <div className="flex mt-4">
                         <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                        <p className="text-xl mt-2">EMI(Easy Installments)</p>
+                        <p className="text-md mt-2">EMI(Easy Installments)</p>
 
                     </div>
                     <span className="mt-6 ml-8 ">Unavailable</span>
@@ -102,7 +113,7 @@ export default function payments() {
             <div className="h-16 bg-gray-100 mt-3  ">
                 <div className="flex ">
                     <p className="text-4xl mx-4 mt-2">+</p>
-                    <p className="text-xl mx-4 mt-4">Git Card</p>
+                    <p className="text-md mx-4 mt-4">Git Card</p>
                 </div>
             </div>
 
