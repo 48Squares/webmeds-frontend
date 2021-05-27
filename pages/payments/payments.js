@@ -74,7 +74,7 @@ export default function payments() {
                 <hr className=" mt-6" />
                 <div className="flex mt-4">
                     <input type="radio" className="mx-4 h-6 w-6 mt-4" />
-                    <p clas sName="text-xl mt-2">Net Banking</p>
+                    <p className="text-xl mt-2">Net Banking</p>
                 </div>
                 <hr className=" mt-6" />
 

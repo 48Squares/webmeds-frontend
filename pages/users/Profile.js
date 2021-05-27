@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
 export default class Profile extends React.Component {
