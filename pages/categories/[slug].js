@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "../../components/Product";
+import Header from "../../components/Header";
 
 export default class CategorySlug extends React.Component {
     componentWillMount() {
@@ -26,11 +27,14 @@ export default class CategorySlug extends React.Component {
 
     render() {
         return (
-            <div className="px-4 py-2 bg-indigo-50">
-                <div className="flex justify-evenly">
-                    {this.state.products.map((product, index) =>
-                        <Product product={product} key={index}/>
-                    )}
+            <div>
+                <Header title="Products"/>
+                <div className="px-4 py-2 bg-gray-50">
+                    <div className="">
+                        {this.state.products.map((product, index) =>
+                            <Product product={product} key={index}/>
+                        )}
+                    </div>
                 </div>
             </div>
         )
