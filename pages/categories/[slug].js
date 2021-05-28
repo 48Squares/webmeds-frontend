@@ -32,7 +32,9 @@ export default class CategorySlug extends React.Component {
                 <div className="px-4 py-2 bg-gray-50">
                     <div className="">
                         {this.state.products.map((product, index) =>
-                            <Product product={product} key={index}/>
+                        <div className="mt-2" key={index}>
+                            <Product product={product} />
+                        </div>
                         )}
                     </div>
                 </div>
