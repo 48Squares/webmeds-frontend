@@ -1,6 +1,7 @@
 import React from "react";
+import Product from '../components/Product';
 
-export default class Product extends React.Component {
+export default class ProductList extends React.Component {
     componentWillMount() {
         fetch('http://mgmt.webmeds.in/api/products', {
                 headers: {
@@ -24,12 +25,12 @@ export default class Product extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div className="px-4 py-2 bg-indigo-50">
                 <div className="flex justify-evenly">
                     {this.state.products.map((product, index) =>
-                        <img src= {product.featuredImage} alt="" key={index} width="150"/>)
-                }
+                        <Product product={product} key={index}/>
+                    )}
                 </div>
             </div>
         )
