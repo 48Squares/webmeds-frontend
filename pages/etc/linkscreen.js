@@ -172,11 +172,11 @@ export default function linkscreen() {
           without limitation price, shipping costs, payment methods, payment
           terms, date, period and mode of delivery, warranties related to
           products and services and after sales services related to products and
-          services. Flipkart does not have any control or does not determine or
+          services. Webmeds does not have any control or does not determine or
           advise or in any way involve itself in the offering or acceptance of
           such commercial/contractual terms between the Buyers and Sellers. All
           discounts, offers (including exchange offers) are by the Seller/Brand
-          and not by Flipkart.
+          and not by Webmeds.
         </li>
       </span>
       <span className="inline-block py-2 text-sm ">
@@ -203,18 +203,18 @@ export default function linkscreen() {
           Webmeds does not make any representation or Warranty as to specifics
           (such as quality, value, salability, etc) of the products or services
           proposed to be sold or offered to be sold or purchased on the
-          Platform. Flipkart does not implicitly or explicitly support or
-          endorse the sale or purchase of any products or services on the
-          Platform. Flipkart accepts no liability for any errors or omissions,
-          whether on behalf of itself or third parties.
+          Platform. Webmeds does not implicitly or explicitly support or endorse
+          the sale or purchase of any products or services on the Platform.
+          Webmeds accepts no liability for any errors or omissions, whether on
+          behalf of itself or third parties.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
           Webmeds is not responsible for any non-performance or breach of any
-          contract entered into between Buyers and Sellers. Flipkart cannot and
+          contract entered into between Buyers and Sellers. Webmeds cannot and
           does not guarantee that the concerned Buyers and/or Sellers will
-          perform any transaction concluded on the Platform. Flipkart shall not
+          perform any transaction concluded on the Platform. Webmeds shall not
           and is not required to mediate or resolve any dispute or disagreement
           between Buyers and Sellers.
         </li>
@@ -240,9 +240,9 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           At no time shall Webmeds hold any right, title or interest over the
-          products nor shall Flipkart have any obligations or liabilities in
+          products nor shall Webmeds have any obligations or liabilities in
           respect of such contract entered into between Buyers and Sellers.
-          Flipkart is not responsible for unsatisfactory or delayed performance
+          Webmeds is not responsible for unsatisfactory or delayed performance
           of services or damages or delays as a result of products which are out
           of stock, unavailable or back ordered.
         </li>
@@ -250,7 +250,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           The Platform is only a platform that can be utilized by Users to reach
-          a larger base to buy and sell products or services. Flipkart is only
+          a larger base to buy and sell products or services. Webmeds is only
           providing a platform for communication and it is agreed that the
           contract for sale of any of the products or services shall be a
           strictly bipartite contract between the Seller and the Buyer.
@@ -258,7 +258,7 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         At no time shall Webmeds hold any right, title or interest over the
-        products nor shall Flipkart have any obligations or liabilities in
+        products nor shall Webmeds have any obligations or liabilities in
         respect of such contract.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -642,8 +642,8 @@ export default function linkscreen() {
           marks, trade name as may be owned or used by us. You agree that You
           will not take any action that imposes an unreasonable or
           disproportionately large load on the infrastructure of the Platform or
-          Flipkart's systems or networks, or any systems or networks connected
-          to Flipkart.
+          Webmeds's systems or networks, or any systems or networks connected to
+          Webmeds.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -668,7 +668,7 @@ export default function linkscreen() {
           You may not use the Platform or any content for any purpose that is
           unlawful or prohibited by these Terms of Use, or to solicit the
           performance of any illegal activity or other activity which infringes
-          the rights of Flipkart and / or others.
+          the rights of Webmeds and / or others.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -743,13 +743,13 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         We reserve the right, but has no obligation, to monitor the materials
-        posted on the Platform. Flipkart shall have the right to remove or edit
+        posted on the Platform. Webmeds shall have the right to remove or edit
         any content that in its sole discretion violates, or is alleged to
         violate, any applicable law or either the spirit or letter of these
         Terms of Use. Notwithstanding this right, YOU REMAIN SOLELY RESPONSIBLE
         FOR THE CONTENT OF THE MATERIALS YOU POST ON THE PLATFORM AND IN YOUR
         PRIVATE MESSAGES. Please be advised that such Content posted does not
-        necessarily reflect Flipkart views. In no event shall Flipkart assume or
+        necessarily reflect Webmeds views. In no event shall Flipkart assume or
         have any responsibility or liability for any Content posted or for any
         claims, damages or losses resulting from use of Content and/or
         appearance of Content on the Platform. You hereby represent and warrant
@@ -800,12 +800,12 @@ export default function linkscreen() {
           command-based shopping feature, you acknowledge that Webmeds and/or
           its affiliates will collect, store and use your voice inputs on this
           feature to customize your experience and provide additional
-          functionality as well as to improve Flipkart’s and/or its affiliates’
-          products and services. Flipkart’s and/or its affiliates’ use of your
-          voice data will be in accordance with the Flipkart Privacy Policy. You
+          functionality as well as to improve Webmeds’s and/or its affiliates’
+          products and services. Webmeds’s and/or its affiliates’ use of your
+          voice data will be in accordance with the Webmeds Privacy Policy. You
           accept that your use of this feature is restricted to the territory of
           the Republic of India. This feature may not be accessible on certain
-          devices and requires an internet connection. Flipkart reserves the
+          devices and requires an internet connection. Webmeds reserves the
           right to change, enhance, suspend, or discontinue this feature, or any
           part of it, at any time without notice to you. Your continued use of
           this feature constitutes your acceptance of the terms related to this
@@ -817,13 +817,13 @@ export default function linkscreen() {
           You acknowledge and agree that the Hindi, Telugu, Tamil, Kannada and
           Marathi, Bengali, Gujarati & Odia translation features are made
           available on the Platform on a reasonable effort basis for convenience
-          only, without any representation or warranties by Flipkart, express or
+          only, without any representation or warranties by Webmeds, express or
           implied, including the translations being error free, their accuracy,
           completeness or reliability. Under the translation feature, You will
           have the option to adding delivery addresses in the language selected
           by You out of the featured languages. Such delivery addresses shall be
           transliterated in English language for processing, handling and
-          fulfilling Your orders on the Platform. Flipkart expressly disclaims
+          fulfilling Your orders on the Platform. Webmeds expressly disclaims
           any liability of any nature whatsoever arising from or related to the
           said translation/transliteration features on the Platform. Some
           features and sections on the Platform may not be translated in the
@@ -833,7 +833,7 @@ export default function linkscreen() {
           any conflict or inconsistency between the translated terms and the
           English version available on the Platform, the English version on the
           Platform shall prevail. This feature may not be accessible on certain
-          devices. Flipkart reserves the right to change, enhance, suspend, or
+          devices. Webmeds reserves the right to change, enhance, suspend, or
           discontinue this feature, or any part of it, at any time without
           notice to You.
         </li>
@@ -846,8 +846,8 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         All text, graphics, user interfaces, visual interfaces, photographs,
         trademarks, logos, sounds, music and artwork (collectively, "Content"),
-        is a third party user generated content and Flipkart has no control over
-        such third party user generated content as Flipkart is merely an
+        is a third party user generated content and Webmeds has no control over
+        such third party user generated content as Webmeds is merely an
         intermediary for the purposes of this Terms of Use.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -856,7 +856,7 @@ export default function linkscreen() {
         uploaded, posted, publicly displayed, encoded, translated, transmitted
         or distributed in any way (including "mirroring") to any other computer,
         server, Platform or other medium for publication or distribution or for
-        any commercial enterprise, without Flipkart's express prior written
+        any commercial enterprise, without Webmeds's express prior written
         consent.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -959,7 +959,7 @@ export default function linkscreen() {
         You through this site are provided on "as is" and "as available" basis
         without any representation or warranties, express or implied except
         otherwise specified in writing. Without prejudice to the forgoing
-        paragraph, Flipkart does not warrant that:
+        paragraph, Webmeds does not warrant that:
       </span>
       <span className="inline-block py-2 text-sm">
         This Platform will be constantly available, or available at all; or
@@ -971,7 +971,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         Webmeds will not be liable to You in any way or in relation to the
         Contents of, or use of, or otherwise in connection with, the Platform.
-        Flipkart does not warrant that this site; information, Content,
+        Webmeds does not warrant that this site; information, Content,
         materials, product (including software) or services included on or
         otherwise made available to You through the Platform; their servers; or
         electronic communication sent from Us are free of viruses or other
@@ -1017,8 +1017,8 @@ export default function linkscreen() {
         not match the actual condition of the item, you agree to refund any
         amounts that you may have received from the Buyer. You agree not to list
         a single product in multiple quantities across various categories on the
-        Platform. Flipkart reserves the right to delete such multiple listings
-        of the same product listed by you in various categories.
+        Platform. Webmeds reserves the right to delete such multiple listings of
+        the same product listed by you in various categories.
       </span>
       <p className="py-2 text-sm">
         <h1>
@@ -1070,41 +1070,41 @@ export default function linkscreen() {
           principal bipartite contractual obligations between Buyer and Seller
           and payment facility is merely used by the Buyer and Seller to
           facilitate the completion of the Transaction. Use of the payment
-          facility shall not render Flipkart liable or responsible for the
+          facility shall not render Webmeds liable or responsible for the
           non-delivery, non-receipt, non-payment, damage, breach of
           representations and warranties, non-provision of after sales or
           warranty services or fraud as regards the products and /or services
-          listed on Flipkart's Platform.
+          listed on Webmeds's Platform.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
           {" "}
-          You have specifically authorized Flipkart or its service providers to
+          You have specifically authorized Webmeds or its service providers to
           collect, process, facilitate and remit payments and / or the
           Transaction Price electronically or through Cash on Delivery to and
           from other Users in respect of transactions through Payment Facility.
-          Your relationship with Flipkart is on a principal to principal basis
-          and by accepting these Terms of Use you agree that Flipkart is an
+          Your relationship with Webmeds is on a principal to principal basis
+          and by accepting these Terms of Use you agree that Webmeds is an
           independent contractor for all purposes, and does not have control of
-          or liability for the products or services that are listed on
-          Flipkart's Platform that are paid for by using the Payment Facility.
-          Flipkart does not guarantee the identity of any User nor does it
-          ensure that a Buyer or a Seller will complete a transaction.
+          or liability for the products or services that are listed on Webmeds's
+          Platform that are paid for by using the Payment Facility. Webmeds does
+          not guarantee the identity of any User nor does it ensure that a Buyer
+          or a Seller will complete a transaction.
         </li>
       </span>
 
       <span className="inline-block py-2 text-sm">
         <li>
           You understand, accept and agree that the payment facility provided by
-          Flipkart is neither a banking nor financial service but is merely a
+          Webmeds is neither a banking nor financial service but is merely a
           facilitator providing an electronic, automated online electronic
           payment, receiving payment through Cash On Delivery, collection and
-          remittance facility for the Transactions on the Flipkart Platform
-          using the existing authorized banking infrastructure and Credit Card
-          payment gateway networks. Further, by providing Payment Facility,
-          Flipkart is neither acting as trustees nor acting in a fiduciary
-          capacity with respect to the Transaction or the Transaction Price.
+          remittance facility for the Transactions on the Webmeds Platform using
+          the existing authorized banking infrastructure and Credit Card payment
+          gateway networks. Further, by providing Payment Facility, Webmeds is
+          neither acting as trustees nor acting in a fiduciary capacity with
+          respect to the Transaction or the Transaction Price.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1133,8 +1133,8 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           You, as a Buyer, shall electronically notify Payment Facility using
-          the appropriate Flipkart Platform features immediately upon Delivery
-          or non Delivery within the time period as provided in Policies. Non
+          the appropriate Webmeds Platform features immediately upon Delivery or
+          non Delivery within the time period as provided in Policies. Non
           notification by You of Delivery or non Delivery within the time period
           specified in the Policies shall be construed as a deemed Delivery in
           respect of that Transaction. In case of Cash On Delivery transactions,
@@ -1197,7 +1197,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           Refund shall be conditional and shall be with recourse available to
-          Flipkart in case of any misuse by Buyer.
+          Webmeds in case of any misuse by Buyer.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1210,9 +1210,9 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
-          Flipkart reserves the right to impose limits on the number of
-          Transactions or Transaction Price which Flipkart may receive from on
-          an individual Valid Credit/Debit/ Cash Card / Valid Bank Account/ and
+          Webmeds reserves the right to impose limits on the number of
+          Transactions or Transaction Price which Webmeds may receive from on an
+          individual Valid Credit/Debit/ Cash Card / Valid Bank Account/ and
           such other infrastructure or any other financial instrument directly
           or indirectly through payment aggregator or through any such facility
           authorized by Reserve Bank of India to provide enabling support
@@ -1223,35 +1223,35 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
-          Flipkart reserves the right to refuse to process Transactions by
-          Buyers with a prior history of questionable charges including without
-          limitation breach of any agreements by Buyer with Flipkart or
+          Webmeds reserves the right to refuse to process Transactions by Buyers
+          with a prior history of questionable charges including without
+          limitation breach of any agreements by Buyer with Webmeds or
           breach/violation of any law or any charges imposed by Issuing Bank or
           breach of any policy.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
-          Flipkart may do such checks as it deems fit before approving the
+          Webmeds may do such checks as it deems fit before approving the
           receipt of/Buyers commitment to pay (for Cash On Delivery
           transactions) Transaction Price from the Buyer for security or other
-          reasons at the discretion of Flipkart. As a result of such check if
-          Flipkart is not satisfied with the creditability of the Buyer or
+          reasons at the discretion of Webmeds. As a result of such check if
+          Webmeds is not satisfied with the creditability of the Buyer or
           genuineness of the Transaction or other reasons at its sole
-          discretion, Flipkart shall have the right to reject the receipt of /
+          discretion, Webmeds shall have the right to reject the receipt of /
           Buyers commitment to pay Transaction Price. For avoidance of doubt, it
           is hereby clarified that the ‘Cash on Delivery’ feature for payment,
           may be disabled for certain account users, at the sole discretion of
-          Flipkart.
+          Webmeds.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
-          Flipkart may delay notifying the payment confirmation i.e. informing
-          Seller to Dispatch, if Flipkart deems suspicious or for Buyers
+          Webmeds may delay notifying the payment confirmation i.e. informing
+          Seller to Dispatch, if Webmeds deems suspicious or for Buyers
           conducting high transaction volumes to ensure safety of the
-          Transaction and Transaction Price. In addition, Flipkart may hold
-          Transaction Price and Flipkart may not inform Seller to Dispatch or
+          Transaction and Transaction Price. In addition, Webmeds may hold
+          Transaction Price and Webmeds may not inform Seller to Dispatch or
           remit Transaction Price to law enforcement officials (instead of
           refunding the same to Buyer) at the request of law enforcement
           officials or in the event the Buyer is engaged in any form of illegal
@@ -1260,10 +1260,10 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         <li>
-          The Buyer and Seller acknowledge that Flipkart will not be liable for
+          The Buyer and Seller acknowledge that Webmeds will not be liable for
           any damages, interests or claims etc. resulting from not processing a
           Transaction/Transaction Price or any delay in processing a
-          Transaction/Transaction Price which is beyond control of Flipkart.
+          Transaction/Transaction Price which is beyond control of Webmeds.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1294,7 +1294,7 @@ export default function linkscreen() {
           Contribution Regulation Act, 1976 and the rules made there under,
           Income Tax Act, 1961 and the rules made there under, Export Import
           Policy of government of India) applicable to them respectively for
-          using Payment Facility and Flipkart Platform.
+          using Payment Facility and Webmeds Platform.
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1320,12 +1320,12 @@ export default function linkscreen() {
         </li>
       </span>
       <span className="inline-block py-2 text-sm">
-        <b>Flipkart's Replacement Guarantee*</b>
+        <b>Webmeds's Replacement Guarantee*</b>
       </span>
       <span className="inline-block py-2 text-sm">
-        Flipkart's Replacement Guarantee seeks to assist Buyers who have been
+        Webmeds's Replacement Guarantee seeks to assist Buyers who have been
         defrauded by qualified sellers on the Platform. The return policy period
-        (Flipkart's Replacement Guarantee) depends on the product category and
+        (Webmeds's Replacement Guarantee) depends on the product category and
         the seller. Kindly click here to know the return policy period
         applicable for different categories. If at the time of delivery and/or
         within the applicable return policy period, if any defect is found, then
@@ -1402,29 +1402,29 @@ export default function linkscreen() {
         categories.
       </span>
       <span className="inline-block py-2 text-sm">
-        If Flipkart has any suspicion or knowledge that any of its buyers and
+        If Webmeds has any suspicion or knowledge that any of its buyers and
         sellers are involved in any activity that is intended to provide claims
-        or information that is false or not genuine, Flipkart may also, while
+        or information that is false or not genuine, Webmeds may also, while
         reserving its rights to initiate civil and/or criminal proceedings
         against such member buyers and sellers, at its sole discretion, suspend,
         block, restrict, cancel the Display Name of such buyers and sellers
         and/or disqualify that user and any related users from availing
         protection through this program. Customers who have been blocked for any
-        suspicious or fraudulent activity on Flipkart will not be allowed to
+        suspicious or fraudulent activity on Webmeds will not be allowed to
         return their products.
       </span>
       <span className="inline-block py-2 text-sm">
-        Flipkart reserves its right to initiate civil and/or criminal
-        proceedings against a user who, files a invalid and/or false claims or
-        provides false, incomplete, or misleading information. In addition to
-        the legal proceedings as aforesaid, Flipkart may at its sole discretion
-        suspend, block, restrict, cancel the Display Name [and its related
-        Display Names] of such user and/or disqualify that user and any related
-        users from availing protection through this program. Any person who,
-        knowingly and with intent to injure, defraud or deceive, files a
-        Fraudulent Complaint containing false, incomplete, or misleading
-        information may be guilty of a criminal offence and will be prosecuted
-        to the fullest extent of the law.
+        Webmeds reserves its right to initiate civil and/or criminal proceedings
+        against a user who, files a invalid and/or false claims or provides
+        false, incomplete, or misleading information. In addition to the legal
+        proceedings as aforesaid, Webmeds may at its sole discretion suspend,
+        block, restrict, cancel the Display Name [and its related Display Names]
+        of such user and/or disqualify that user and any related users from
+        availing protection through this program. Any person who, knowingly and
+        with intent to injure, defraud or deceive, files a Fraudulent Complaint
+        containing false, incomplete, or misleading information may be guilty of
+        a criminal offence and will be prosecuted to the fullest extent of the
+        law.
       </span>
       <p className="py-2 text-sm">
         <b>Exchange Offers:</b>
@@ -1440,10 +1440,10 @@ export default function linkscreen() {
         Sale etc. and I have got the clear ownership of the said device.
       </span>
       <span className="inline-block py-2 text-sm">
-        You agree to indemnity and keep indemnifying Flipkart.com and any future
+        You agree to indemnity and keep indemnifying Webmeds.com and any future
         buyer of the device against all or any third party claims, demand, cost,
         expenses including attorney fees which may be suffered, incurred,
-        undergone and / or sustained by Flipkart.com, its affiliates or any
+        undergone and / or sustained by Webmeds.com, its affiliates or any
         future buyer due to usage of the device by you till date and you
         undertake to make good the same.
       </span>
@@ -1451,8 +1451,8 @@ export default function linkscreen() {
         I confirm that all the data in the said device will be erased before
         handing it over under buy back program. I also confirm that in spite of
         erasing the data manually/electronically, if any data still accessible
-        due any technical reason, Flipkart.com, Seller or the Manufacturer shall
-        not be responsible for the same and I will not approach Flipkart.com for
+        due any technical reason, Webmeds.com, Seller or the Manufacturer shall
+        not be responsible for the same and I will not approach Webmeds.com for
         any retrieval of the data.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1463,15 +1463,15 @@ export default function linkscreen() {
         I provided herein and for the administration of the program.
       </span>
       <span className="inline-block py-2 text-sm">
-        I agree to indemnity and keep indemnifying the Flipkart.com and any
+        I agree to indemnity and keep indemnifying the Webmeds.com and any
         future buyer of the old device against all or any third party claims,
         demand, cost, expenses including attorney fees which may be suffered,
-        incurred, undergone and / or sustained by Flipkart.com, its affiliates
-        or any future buyer due to usage of the device by me till date and I
+        incurred, undergone and / or sustained by Webmeds.com, its affiliates or
+        any future buyer due to usage of the device by me till date and I
         undertake to make good the same.
       </span>
       <span className="inline-block py-2 text-sm">
-        I understand once a device is sent by me to Flipkart, in no scenario can
+        I understand once a device is sent by me to Webmeds, in no scenario can
         this device be returned back to me.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -1491,16 +1491,16 @@ export default function linkscreen() {
       </p>
       <span className="inline-block py-2 text-sm">
         <b> Music (MP3 format):</b> Only certain short listed Seller (at the
-        sole discretion of Flipkart) shall be entitled to sell Music (MP3
-        format) on the Platform. You may be able to purchase DRM-free digital
-        music in MP3 file format on the Platform from the respective Sellers.
-        Such MP3 music files shall be provided to You as per selection provided
-        by Seller, subject to certain limitations as described by the Seller.
-        You shall be granted specified download rights of DRM-free MP3 music
-        files from the catalogue of MP3 music displayed on the Platform. The MP3
-        music may include full-length MP3 audio tracks at best available bit
-        rate and certain other premium features, as may be provided on the
-        Platform by respective Sellers from time to time.
+        sole discretion of Webmeds) shall be entitled to sell Music (MP3 format)
+        on the Platform. You may be able to purchase DRM-free digital music in
+        MP3 file format on the Platform from the respective Sellers. Such MP3
+        music files shall be provided to You as per selection provided by
+        Seller, subject to certain limitations as described by the Seller. You
+        shall be granted specified download rights of DRM-free MP3 music files
+        from the catalogue of MP3 music displayed on the Platform. The MP3 music
+        may include full-length MP3 audio tracks at best available bit rate and
+        certain other premium features, as may be provided on the Platform by
+        respective Sellers from time to time.
       </span>
       <span className="inline-block py-2 text-sm">
         <b>Territory:</b> Currently You can purchase downloadable digital MP3
@@ -1541,12 +1541,12 @@ export default function linkscreen() {
         All Sales Final; Downloading and Risk of Loss; Availability of MP3 music
         files: All sales of MP3 music files are final. Returns of MP3 music
         files are not permissible on Platform. Once You have purchased MP3 music
-        files, Flipkart encourages You to download it promptly. If You are
-        unable to complete a download, please contact customer service within 6
-        hours of the payment.
+        files, Webmeds encourages You to download it promptly. If You are unable
+        to complete a download, please contact customer service within 6 hours
+        of the payment.
       </span>
       <span className="inline-block py-2 text-sm">
-        Further Flipkart assumes no liability if your media player does not
+        Further Webmeds assumes no liability if your media player does not
         support the file format made available by the Seller on the Platform or
         your browser does not support the music download application / software
         available by the Seller on the Platform, by whatever name called.
@@ -1578,7 +1578,7 @@ export default function linkscreen() {
         rights, reciprocating rights, infringement rights. All those
         Intellectual Property rights arising as a result of domain names,
         internet or any other right available under applicable law shall vest in
-        the domain of Flipkart as the owner of such domain name. The Parties
+        the domain of Webmeds as the owner of such domain name. The Parties
         hereto agree and confirm that no part of any Intellectual Property
         rights mentioned hereinabove is transferred in the name of User and any
         intellectual property rights arising as a result of these presents shall
@@ -1635,16 +1635,16 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <b> ebook (ePub format):</b> You will be able to purchase DRM-encrypted
-        eBooks in ePub file format on the Flipkart Platform and the Flyte eBooks
+        eBooks in ePub file format on the Webmeds Platform and the Flyte eBooks
         application. Such ePub files shall be provided to you as per your
         selection, subject to certain limitations as described herein. You shall
         be granted specified download rights of DRM-encrypted ePub files from
         the catalog of eBooks displayed on the Platform.
       </span>
       <span className="inline-block py-2 text-sm">
-        <b> Download rights:</b> You will need to be registered with Flipkart to
-        make an ebook purchase. The eBooks which you purchase from the Flipkart
-        Platform or Flyte eBooks application shall be added in your Flipkart
+        <b> Download rights:</b> You will need to be registered with Webmeds to
+        make an ebook purchase. The eBooks which you purchase from the Webmeds
+        Platform or Flyte eBooks application shall be added in your Webmeds
         eBooks library from where you can download the eBooks onto your
         device(/s). Each downloaded ebook is locked to the User account and the
         downloader device. These downloaded eBooks cannot be transferred onto
@@ -1661,14 +1661,14 @@ export default function linkscreen() {
         where the user can quickly purchase eBooks. The Flyte eBooks app will be
         available in the Android platform. The Android app will be compatible
         with both mobiles and tablet devices. You can download the Flyte eBooks
-        android app for free from the Flipkart Platform and also Google Play.
+        android app for free from the Webmeds Platform and also Google Play.
       </span>
       <span className="inline-block py-2 text-sm">
         <b> Territory:</b> Currently you can purchase downloadable eBooks only
         through the Platform and Flyte eBooks Application as may be made
         available from time to time on the Platform, only within the territory
         of India. You have to be within the Indian Territory to even download
-        the already purchased files from your Flipkart eBooks library.
+        the already purchased files from your Webmeds eBooks library.
       </span>
       <span className="inline-block py-2 text-sm">
         <b> DRM Specifications:</b> The DRM (Digital Rights Management) enables
@@ -1834,7 +1834,7 @@ export default function linkscreen() {
         rights, reciprocating rights, infringement rights. All those
         Intellectual Property rights arising as a result of domain names,
         internet or any other right available under applicable law shall vest in
-        the domain of Flipkart Internet Private Limited as the owner of such
+        the domain of Webmeds Internet Private Limited as the owner of such
         domain name. The Parties hereto agree and confirm that no part of any
         Intellectual Property rights mentioned hereinabove is transferred in the
         name of User and any intellectual property rights arising as a result of
@@ -1898,9 +1898,9 @@ export default function linkscreen() {
           (“Content Owner”), within the FK Platform for convenience of Platform
           Users, and as such,Webmeds has no ownership or control whatsoever in
           the Contents displayed. The Contents posted by the Content Owners are
-          of personal views wherein Flipkart plays no role in
-          creating/developing the Content. You are responsible for your use of
-          the Platform for viewing the Content.
+          of personal views wherein Webmeds plays no role in creating/developing
+          the Content. You are responsible for your use of the Platform for
+          viewing the Content.
         </li>
       </span>
 
@@ -1926,8 +1926,8 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           Any information on the Platform, whether the content or any other
-          information, have not been verified by Flipkart, therefore, Flipkart
-          shall not be responsible for any such content or information. Flipkart
+          information, have not been verified by Webmeds, therefore, Flipkart
+          shall not be responsible for any such content or information. Webmeds
           will not bear any obligation or liability if You rely on the Contents.
         </li>
       </span>
@@ -1953,8 +1953,8 @@ export default function linkscreen() {
           offensive, harmful, inaccurate or otherwise inappropriate, or in some
           cases, postings that have been mislabeled or are otherwise deceptive.
           All Content is the sole responsibility of the person who originated
-          such Content. Flipkart may not monitor or control the Content posted
-          on the Platform and, we do not take responsibility for such Content.
+          such Content. Webmeds may not monitor or control the Content posted on
+          the Platform and, we do not take responsibility for such Content.
         </li>
       </span>
 
@@ -1985,7 +1985,7 @@ export default function linkscreen() {
         <li>
           Your access to and use of the Services or any Content are at your own
           risk. You understand and agree that the Services are provided to you
-          on an “AS IS” and “AS AVAILABLE” basis. Flipkart makes no warranty or
+          on an “AS IS” and “AS AVAILABLE” basis. Webmeds makes no warranty or
           representation and disclaim all responsibility and liability for: (i)
           the completeness, accuracy, availability, timeliness, security or
           reliability of any Content; (ii) any harm to your computer system,
@@ -2002,8 +2002,8 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <li>
-          By using the Services you agree that Flipkart, its parents,
-          affiliates, related companies, officers, directors, employees, agents
+          By using the Services you agree that Webmeds, its parents, affiliates,
+          related companies, officers, directors, employees, agents
           representatives, partners and licensors, liability is limited to the
           maximum extent permissible by Law.
         </li>
@@ -2022,7 +2022,7 @@ export default function linkscreen() {
           These Terms of Service ("Terms") govern your access to and use of
           Webmeds Video which is an online over-the-top platform providing users
           with live and/or on-demand audio and video content of various genres
-          which may be offered by either Flipkart or by third party content
+          which may be offered by either Webmeds or by third party content
           providers (all such content, collectively, the "Content").
         </li>
       </span>
@@ -2031,7 +2031,7 @@ export default function linkscreen() {
         <li>
           The Content is being hosted on Webmeds mobile App only ("Platform"),
           that is owned and operated by Webmeds Internet Private Limited
-          ("Flipkart", "We" or "Our").
+          ("Webmeds", "We" or "Our").
         </li>
       </span>
 
@@ -2047,7 +2047,7 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <li>
-          Use of Flipkart Services is available only to persons who can form a
+          Use of Webmeds Services is available only to persons who can form a
           legally binding contract under the Indian Contract Act, 1872.You must
           be 18 years of age, to avail the Services. Minors may only use the
           service under the supervision of an adult. Some content offered on the
@@ -2062,7 +2062,7 @@ export default function linkscreen() {
         <li>
           All the Content being offered to the users on the Platform shall be,
           for the convenience of the users, free of cost, or at such other terms
-          as may be offered by Flipkart or the Content Providers with respect to
+          as may be offered by Webmeds or the Content Providers with respect to
           any Content from time to time, and such other terms shall be
           communicated to the user at the time of viewing such Content and/or at
           the time of registering with the Platform. Subject to you accepting
@@ -2070,7 +2070,7 @@ export default function linkscreen() {
           time to time, you are given a limited, non-exclusive,
           non-transferable, non-sub-licensable, revocable permission to view the
           Platform and avail the Services during the subsistence of your account
-          with Flipkart and no right, title or interest in any Content will be
+          with Webmeds and no right, title or interest in any Content will be
           deemed transferred to you.
         </li>
       </span>
@@ -2078,7 +2078,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           The Platform is an interactive online platform for the users to view
-          the Content of various genres, which may either be offered by Flipkart
+          the Content of various genres, which may either be offered by Webmeds
           or third party content providers. As regards third party audio-video
           content generated by third parties (such content, the " Third Party
           Content" and such content providers, the " Content Owners"), the
@@ -2088,22 +2088,22 @@ export default function linkscreen() {
           services and application of other audio-video hosting, caching and/or
           streaming service or infrastructure providers (" Platform Partners")
           who may have content procurement arrangements with the Content Owners
-          The Platform may also provide content which is commissioned by
-          Flipkart and/or is procured by Flipkart either under a license or
-          copyright agreement (such content, " Flipkart Originals").
+          The Platform may also provide content which is commissioned by Webmeds
+          and/or is procured by Flipkart either under a license or copyright
+          agreement (such content, " Webmeds Originals").
         </li>
       </span>
 
       <span className="inline-block py-2 text-sm">
         <li>
-          Content will therefore consist of Flipkart Originals or Third Party
+          Content will therefore consist of Webmeds Originals or Third Party
           Content. Content Owners and/or Platform Partners will provide Third
           Party Content. Specifically, for more information in relation to Third
           Party Content (including the terms of use relating specifically to
           Third Partner Content), you may refer to their respective terms and
-          conditions. As such, Flipkart has no ownership or control whatsoever
-          on Third Party Content, whether it is uploaded or streamed by Content
-          Owners or by the Platform Partners. Flipkart plays no role in
+          conditions. As such, Webmeds has no ownership or control whatsoever on
+          Third Party Content, whether it is uploaded or streamed by Content
+          Owners or by the Platform Partners. Webmeds plays no role in
           creating/developing Third Party Content.
         </li>
       </span>
@@ -2111,27 +2111,27 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           As regards all the news content which are also Third Party Content
-          through the Platform Partners, Flipkart's role is strictly limited to
+          through the Platform Partners, Webmeds's role is strictly limited to
           providing a uniform resource locator (URL) or a web-address to access
           and/or share such content on the Internet with the users and all news
           content is provided, uploaded, streamed and/or hosted by Content
           Owners, the Platform Partners and/or their respective agents or
           service providers. For avoidance of doubt, it is clarified that
-          Flipkart will not be hosting, uploading or streaming any news content
-          on its servers or IT systems. Flipkart will not be exercising any
+          Webmeds will not be hosting, uploading or streaming any news content
+          on its servers or IT systems. Webmeds will not be exercising any
           control – physical, editorial or digital - over the news Content being
-          viewed by or provided to the user on the Platform. Flipkart will only
+          viewed by or provided to the user on the Platform. Webmeds will only
           be providing the user with an option and/or a medium to access news
           content through the Platform which, in turn, will provide the Content
           Providers and/or the Platform Partners an opportunity to disseminate
           their content on the Platform. The news Content on the Platform is
           directly uploaded or streamed onto the Platform by Platform Partners
-          who avail of Flipkart's communication platform, without any
-          intervention from Flipkart in the content
-          procurement/uploading/streaming/transmission process. Flipkart's role
+          who avail of Webmeds's communication platform, without any
+          intervention from Webmeds in the content
+          procurement/uploading/streaming/transmission process. Webmeds's role
           is that of an 'intermediary' as defined under the Information
           Technology Act, 2000 and the rules thereunder, with regard to the news
-          Content. Being an intermediary, Flipkart has no responsibility and/or
+          Content. Being an intermediary, Webmeds has no responsibility and/or
           liability in respect of any news Content on the Platform, including
           for intellectual property rights infringement, defamation, obscenity
           or any other violation under applicable law.
@@ -2141,19 +2141,19 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           Irrespective of whether the Content is a Third Party Content or a
-          Flipkart Original, you, at all times, are responsible for your use of
-          the Platform and for viewing any Content and Flipkart shall have no
+          Webmeds Original, you, at all times, are responsible for your use of
+          the Platform and for viewing any Content and Webmeds shall have no
           liability with respect to any loss or damage caused by viewing or
-          relying on the Content. By hosting Flipkart Originals on the Platform
+          relying on the Content. By hosting Webmeds Originals on the Platform
           and by permitting the hosting, uploading or streaming of Third Party
-          Content on the Platform, Flipkart will neither guaranteeing nor giving
+          Content on the Platform, Webmeds will neither guaranteeing nor giving
           any warranty nor making any representation with respect to the
           Contents. The Content provided on the Platform is for entertainment or
-          information purposes only and Flipkart will neither be endorsing the
+          information purposes only and Webmeds will neither be endorsing the
           views, products or the services being depicted or offered as part of
-          the Content, nor will Flipkart be responsible for quality or features
+          the Content, nor will Webmeds be responsible for quality or features
           of the Content displayed on the Platform. Unless expressly stated
-          otherwise, all characters, themes and events depicted in Flipkart
+          otherwise, all characters, themes and events depicted in Webmeds
           Originals are entirely fictitious and any similarity to actual events
           or persons, living or dead, is purely coincidental, unintentional or
           accidental.
@@ -2165,9 +2165,9 @@ export default function linkscreen() {
           Third Party Content will be made available to you through different
           modes, including via video-on-demand or on a live streaming basis,
           depending on the nature of the content and at the discretion of the
-          Content Owners and/or Platform Partners. Flipkart Originals will be
+          Content Owners and/or Platform Partners. Webmeds Originals will be
           provided to you through different modes as well as the discretion of
-          Flipkart. You may choose to view any Content at your discretion at a
+          Webmeds. You may choose to view any Content at your discretion at a
           time chosen by you and by accepting these Terms and any other terms
           relating to such Content.
         </li>
@@ -2177,7 +2177,7 @@ export default function linkscreen() {
         <li>
           Please note that the availability of, and your ability to access, the
           Content or some part of the Services, (a) is subject to applicable law
-          and the contractual arrangements between Flipkart and the Content
+          and the contractual arrangements between Webmeds and the Content
           Owners and/or Platform Partners; and (b) may be dependent upon your
           geographical location, your Internet/data connectivity or your system
           capabilities or compatibility with the Platform. Not all Content or
@@ -2201,9 +2201,9 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           Any information on the Platform, whether the Content or any other
-          information (other than Flipkart Original), have not been verified by
-          Flipkart, and therefore, Flipkart shall not be responsible for any
-          such Third Party Content or information. Flipkart will not bear any
+          information (other than Webmeds Original), have not been verified by
+          Webmeds, and therefore, Flipkart shall not be responsible for any such
+          Third Party Content or information. Webmeds will not bear any
           obligation or liability if You rely on the Contents or information and
           any loss or liability has been incurred by you arising from such Third
           Party Content or information.
@@ -2216,8 +2216,8 @@ export default function linkscreen() {
           information on the Platform, you will be impliedly accepting the terms
           of viewing or relying on such Third Party Content or information, as
           offered by the Content Providers and/or the Platform Partners, and
-          Flipkart will neither be a party to such an arrangement nor will it in
-          any manner be concerned with such an arrangement nor will Flipkart be
+          Webmeds will neither be a party to such an arrangement nor will it in
+          any manner be concerned with such an arrangement nor will Webmeds be
           liable or responsible for any act or omission of the Content Owner
           and/or the Platform Partners.
         </li>
@@ -2238,10 +2238,10 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           You further acknowledge that all the intellectual property rights
-          contained in (a) the Flipkart Originals are solely owned by Flipkart
+          contained in (a) the Webmeds Originals are solely owned by Flipkart
           and (b) in the Third Party Content are solely owned by the Content
           Owners or licensed to the Platform Partners. During the term of your
-          Flipkart membership we grant you a limited, non-exclusive,
+          Webmeds membership we grant you a limited, non-exclusive,
           non-transferable, revocable right to access the Platform and view the
           Content. Except for the foregoing, no right, title or interest shall
           be transferred to you in any Content or the Platform.
@@ -2253,15 +2253,15 @@ export default function linkscreen() {
           We can terminate your account or place your account on hold in order
           to protect our or the interests of the Content Owners or of the
           Platform Partners, from an actual, probable or suspected theft, loss,
-          damage or other fraudulent activity. Flipkart reserves the right to
+          damage or other fraudulent activity. Webmeds reserves the right to
           immediately terminate, suspend, limit, or restrict your access or use
           of the Platform and/or the Services, at any time, without any notice
-          or liability, if Flipkart so determines, in its sole discretion, for
+          or liability, if Webmeds so determines, in its sole discretion, for
           any reason whatsoever, including that you have: (a) breached these
           Terms or the Privacy Policy; or (b) violated any applicable law, rule,
           or regulation; or (c) you have engaged in any inappropriate or
           unlawful conduct; or (d) provided any false or inaccurate information;
-          or (e) for any other reason that Flipkart deems fit in its sole
+          or (e) for any other reason that Webmeds deems fit in its sole
           discretion.
         </li>
       </span>
@@ -2279,7 +2279,7 @@ export default function linkscreen() {
           All Third Party Content is the sole responsibility of the Content
           Owners who originated such content or it is the responsibility of the
           Platform Partners who host, upload and/or stream such Third Party
-          Content. Flipkart may not monitor or control the Content posted,
+          Content. Webmeds may not monitor or control the Content posted,
           uploaded and/or streamed on the Platform by the Content Owners, the
           Platform Partners and/or their respective agents or affiliates, and,
           we do not take responsibility or liability for any such content.
@@ -2291,7 +2291,7 @@ export default function linkscreen() {
           We reserve the right to remove any Content or the user data that
           violates these Terms or the applicable law, including for example,
           copyright or trademark violations, impersonation, unlawful conduct, or
-          harassment. With respect to Third Party Content, Flipkart's role is
+          harassment. With respect to Third Party Content, Webmeds's role is
           limited to providing a communication platform to Content Owners and/or
           Platform Partners, to enable the transmission of the Third Party
           Content directly from such third parties to you.
@@ -2301,7 +2301,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           Personal Information; We may use information such as device ID,
-          location or an account email address used with an existing Flipkart
+          location or an account email address used with an existing Webmeds
           account to determine eligibility and any offers therof. We may share
           personal information with our other corporate entities and Platform
           Partners only for the purposes of giving enhanced customer services.
@@ -2332,7 +2332,7 @@ export default function linkscreen() {
           <b> Disclaimer of representations and warranties:</b> Your access to
           and use of the Services or any Content are at your own risk. You
           understand and agree that the Services are provided to you on an "AS
-          IS" or "AS AVAILABLE" basis. Flipkart makes no warranty or
+          IS" or "AS AVAILABLE" basis. Webmeds makes no warranty or
           representation and disclaim all responsibility and liability for: (i)
           the completeness, accuracy, availability, timeliness, security,
           security and non-compatibility or reliability of any Content; (ii) any
@@ -2350,10 +2350,10 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           <b>Limitation of liability:</b> By using the Services, you agree that
-          the liability of Flipkart, its parents, affiliates, related companies,
+          the liability of Webmeds, its parents, affiliates, related companies,
           officers, directors, employees, agents, representatives, partners and
           licensors, shall be limited to the maximum extent permissible by
-          applicable law. In no case shall Flipkart, its directors, officers,
+          applicable law. In no case shall Webmeds, its directors, officers,
           employees, affiliates, agents, contractors, principals, or licensors
           be liable for any direct, indirect, incidental, punitive, special, or
           consequential damages arising from your use of the Services or any
@@ -2369,7 +2369,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           <b>Indemnification:</b> You shall defend, indemnify and hold harmless
-          Flipkart its owners, affiliates, subsidiaries, group companies,
+          Webmeds its owners, affiliates, subsidiaries, group companies,
           partners (as applicable), and their respective officers, directors,
           agents, and employees (" Indemnified Parties"), from and against any
           claim, demand, damages, obligations, penalty, losses or actions
@@ -2379,8 +2379,8 @@ export default function linkscreen() {
           breach of these Terms, the Privacy Policy and/or any other policies;
           or (b) violation of any applicable law, rules, regulations; or (c)
           violation of the rights (including infringement of intellectual
-          property rights) of a third party or Flipkart; or (d) unauthorized,
-          improper, illegal or wrongful use of your Flipkart account (including
+          property rights) of a third party or Webmeds; or (d) unauthorized,
+          improper, illegal or wrongful use of your Webmeds account (including
           by you or by any person, including a third party, whether or not
           authorized or permitted by you). This indemnification obligation will
           survive the expiry or termination of these Terms and/or your use of
@@ -2390,14 +2390,14 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <li>
-          <b>Force Majeure:</b> You agree that Flipkart shall be under no
+          <b>Force Majeure:</b> You agree that Webmeds shall be under no
           liability whatsoever to you in the event of non-availability of the
           Platform and/or any of the Services or any portion thereof, occasioned
           by an Act of God, war, disease, revolution, riot, civil commotion,
           strike, lockout, flood, fire, satellite failure, failure of any public
           utility, man-made disaster, satellite failure or any other cause
-          whatsoever beyond the control of Flipkart (including any event which
-          is caused by the failure or non-performance on the part of the Content
+          whatsoever beyond the control of Webmeds (including any event which is
+          caused by the failure or non-performance on the part of the Content
           Owners or the Platform Partners).
         </li>
       </span>
@@ -2408,7 +2408,7 @@ export default function linkscreen() {
           construed in accordance with the laws of India, without regard to the
           conflict of law provisions and for resolution of any dispute arising
           out of your use of the Services or in relation to these Terms.
-          Notwithstanding the foregoing, you agree that (i) Flipkart has the
+          Notwithstanding the foregoing, you agree that (i) Webmeds has the
           right to bring any proceedings before any court/forum of competent
           jurisdiction and you irrevocably submit to the jurisdiction of such
           courts or forum; and (ii) any proceeding brought by you shall be
@@ -2444,10 +2444,10 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         <li>
           <b>Entire agreement:</b> These Terms, the Privacy Policy and any other
-          terms or policies as may be prescribed by Flipkart from time to time,
-          constitute the entire agreement between you and Flipkart, which will
+          terms or policies as may be prescribed by Webmeds from time to time,
+          constitute the entire agreement between you and Webmeds, which will
           govern your use of or access to the Services and/or the Platform,
-          superseding any prior agreements between you and Flipkart regarding
+          superseding any prior agreements between you and Webmeds regarding
           such use or access.
         </li>
       </span>
@@ -2467,7 +2467,7 @@ export default function linkscreen() {
       </span>
 
       <span className="inline-block py-2 text-sm">
-        You shall indemnify and hold harmless Flipkart, its owner, licensee,
+        You shall indemnify and hold harmless Webmeds, its owner, licensee,
         affiliates, subsidiaries, group companies (as applicable) and their
         respective officers, directors, agents, and employees, from any claim or
         demand, or actions including reasonable attorneys' fees, made by any
@@ -2493,11 +2493,11 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         Unless otherwise specified, the material on the Platform is presented
-        solely for the purpose of sale in India. Flipkart make no representation
+        solely for the purpose of sale in India. Webmeds make no representation
         that materials in the Platform are appropriate or available for use in
         other locations/Countries other than India. Those who choose to access
         this site from other locations/Countries other than India do so on their
-        own initiative and Flipkart is not responsible for supply of
+        own initiative and Webmeds is not responsible for supply of
         products/refund for the products ordered from other locations/Countries
         other than India, compliance with local laws, if and to the extent local
         laws are applicable.
@@ -2508,8 +2508,8 @@ export default function linkscreen() {
       </span>
 
       <span className="inline-block py-2 text-sm">
-        This site is controlled and operated by Flipkart and products are sold
-        by respective Sellers. All material on this site, including images,
+        This site is controlled and operated by Webmeds and products are sold by
+        respective Sellers. All material on this site, including images,
         illustrations, audio clips, and video clips, are protected by
         copyrights, trademarks, and other intellectual property rights. Material
         on Platform is solely for Your personal, non-commercial use. You must
@@ -2528,8 +2528,8 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">Trademark complaint</span>
 
       <span className="inline-block py-2 text-sm">
-        Flipkart respects the intellectual property of others. In case You feel
-        that Your Trademark has been infringed, You can write to Flipkart at
+        Webmeds respects the intellectual property of others. In case You feel
+        that Your Trademark has been infringed, You can write to Webmeds at
         infringement@flipkart.com or ss@flipkart.com.
       </span>
 
@@ -2639,9 +2639,9 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         Webmeds shall have the right to delete a product review posted by the
         customer at its sole discretion, if it is of the opinion that the review
-        contains offensive language as stated above. Further, if Flipkart is of
+        contains offensive language as stated above. Further, if Webmeds is of
         the opinion that the review unfairly either: (i) causes disadvantage to
-        a product; or (ii) increases the popularity of the product, Flipkart
+        a product; or (ii) increases the popularity of the product, Webmeds
         shall have the right to delete the customer review. Webmeds shall also,
         at its sole discretion have the right to blacklist the customer from
         posting any further customer reviews.
@@ -2660,7 +2660,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         If Webmeds has suspicion or knowledge, that any of its buyers and
         sellers are involved in any activity that is intended to provide claims
-        or information that is false, misleading or not genuine, then Flipkart
+        or information that is false, misleading or not genuine, then Webmeds
         may while reserving its rights to initiate civil and/or criminal
         proceedings against User may also at its sole discretion suspend, block,
         restrict, cancel the Display Name of such buyer and seller and /or
@@ -2672,7 +2672,7 @@ export default function linkscreen() {
         Webmeds reserves its right to initiate civil and/or criminal proceedings
         against a User who, files a invalid and/or false claims or provides
         false, incomplete, or misleading information. In addition to the legal
-        proceedings as aforesaid, Flipkart may at its sole discretion suspend,
+        proceedings as aforesaid, Webmeds may at its sole discretion suspend,
         block, restrict, cancel the Display Name [and its related Display Names]
         of such User and/or disqualify that User and any related Users from
         availing protection through this program. Any person who, knowingly and
@@ -2693,7 +2693,7 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <b> Definition:</b> 'Return' is defined as the action of giving back the
-        item purchased by the Buyer to the Seller on the Flipkart Platform.
+        item purchased by the Buyer to the Seller on the Webmeds Platform.
         Following situations may arise:
       </span>
 
@@ -2777,7 +2777,7 @@ export default function linkscreen() {
 
       <span className="inline-block py-2 text-sm">
         <li>
-          On certain select days as specified by Flipkart (such as 'The Big
+          On certain select days as specified by Webmeds (such as 'The Big
           Billion Day') separate policies may be applicable.
         </li>
       </span>
@@ -2966,7 +2966,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         Generally, transactions are conducted smoothly on Webmeds. However there
         may be some cases where both the Buyers and Sellers may face issues. At
-        Flipkart, we have a Dispute Resolution process in order to resolve
+        Webmeds, we have a Dispute Resolution process in order to resolve
         disputes between Buyers and Sellers.
       </span>
       <span className="inline-block py-2 text-sm">What is a 'dispute'?</span>
@@ -3035,7 +3035,7 @@ export default function linkscreen() {
       </p>
       <p className="py-2 text-sm">
         In case the Seller rejects the return request of the Buyer, and Buyer
-        raises a dispute, then Flipkart will try to mediate and resolve the
+        raises a dispute, then Webmeds will try to mediate and resolve the
         dispute between both the parties. If the dispute is resolved in favour
         of the Buyer, a refund is provided once the product is returned to the
         Seller. If the dispute is settled in favour of the Seller, Buyer is
@@ -3046,7 +3046,7 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         In case of a dispute where the Seller is unable to provide a refund or a
-        replacement, Flipkart will actively work towards reaching a resolution.
+        replacement, Webmeds will actively work towards reaching a resolution.
       </span>
       <span className="inline-block py-2 text-sm">
         The Buyer Protection Program covers Buyers who are unable to
@@ -3061,7 +3061,7 @@ export default function linkscreen() {
         >
           https://www.Webmeds.com/helpcenter
         </a>
-        ,if the issue with the Seller is not resolved. Flipkart's Customer
+        ,if the issue with the Seller is not resolved. Webmeds's Customer
         Support team will look into the case to check for possible fraud and if
         the Buyer has been blacklisted/blocked from making purchases on the
         Platform. Only after verifying these facts, a dispute can be registered.
@@ -3071,17 +3071,17 @@ export default function linkscreen() {
         bridge between customer and seller.
       </span>
       <span className="inline-block py-2 text-sm">
-        When a dispute has been raised, Flipkart may provide both the parties
+        When a dispute has been raised, Webmeds may provide both the parties
         access to each others Display Names, contact details including email
         addresses and other details pertaining to the dispute. Buyers and
-        Sellers are subject to final consent from Flipkart for settling the
+        Sellers are subject to final consent from Webmeds for settling the
         dispute.
       </span>
       <span className="inline-block py-2 text-sm">
         Buyer Eligibility and Restrictions
       </span>
       <span className="inline-block py-2 text-sm">
-        Only the Buyers who have purchased the product on Flipkart are eligible
+        Only the Buyers who have purchased the product on Webmeds are eligible
         for the Buyer Protection Program.
       </span>
       <span className="inline-block py-2 text-sm">
@@ -3097,8 +3097,8 @@ export default function linkscreen() {
         To be able to take advantage of the Buyer Protection Program, Buyers
         should first contact the Seller and attempt to resolve the issue. If the
         Buyer doesn't hear from the Seller or is unable to resolve the issue
-        with the Seller even after contact, a dispute can be raised with
-        Flipkart by writing an email to
+        with the Seller even after contact, a dispute can be raised with Webmeds
+        by writing an email to
         <br />
         <a
           href="https://www.Webmeds.com/helpcenter"
@@ -3123,9 +3123,9 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         Buyers who have reached their maximum lifetime limit for claims are also
-        not eligible. Buyers can make a maximum of 5 claims per year on
-        Flipkart. If the claim was withdrawn, it is not counted. The coverage
-        amount will be limited to â‚¹50,000
+        not eligible. Buyers can make a maximum of 5 claims per year on Webmeds.
+        If the claim was withdrawn, it is not counted. The coverage amount will
+        be limited to â‚¹50,000
       </span>
       <span className="inline-block py-2 text-sm">
         Through the Buyer Protection program, Webmeds does not provide any
@@ -3134,7 +3134,7 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         Raising disputes against Sellers does not automatically entitle the
-        Buyer to a refund or replacement for the product purchased. Flipkart
+        Buyer to a refund or replacement for the product purchased. Webmeds
         shall verify the disputes so raised and may process only such claims
         that are valid and genuine.
       </span>
@@ -3153,7 +3153,7 @@ export default function linkscreen() {
         Webmeds reserves its right to initiate civil and/or criminal proceedings
         against a User who, files an invalid and/or false claims or provides
         false, incomplete, or misleading information. In addition to the legal
-        proceedings as aforesaid, Flipkart may at its sole discretion suspend,
+        proceedings as aforesaid, Webmeds may at its sole discretion suspend,
         block, restrict, cancel the Display Name [and its related Display Names]
         of such User and/or disqualify that user and any related users from
         availing protection through this program.
@@ -3200,7 +3200,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         Seller expressly agrees that issuing the correct and complete invoice is
         the sole and primary responsibility of the Seller. Furthermore, Seller
-        shall ensure that invoices state "Powered by Flipkart" and failing to do
+        shall ensure that invoices state "Powered by Webmeds" and failing to do
         so Seller will be liable for chargebacks (as applicable).
       </span>
       <span className="inline-block py-2 text-sm">
@@ -3280,11 +3280,11 @@ export default function linkscreen() {
         Affiliates and / or third party Platforms using Platform's APIs or
         otherwise. In addition, the Platform may provide links to the third
         party Platforms of Our affiliated companies and certain other businesses
-        for which, Flipkart assumes no responsibility for examining or
-        evaluating the products and services offered by them. Flipkart do not
-        warrant the offerings of, any of these businesses or individuals or the
-        content of such third party Platform(s). Flipkart does not endorse, in
-        any way, any third party Platform(s) or content thereof.
+        for which, Webmeds assumes no responsibility for examining or evaluating
+        the products and services offered by them. Webmeds do not warrant the
+        offerings of, any of these businesses or individuals or the content of
+        such third party Platform(s). Webmeds does not endorse, in any way, any
+        third party Platform(s) or content thereof.
       </span>
       <span className="inline-block py-2 text-sm">
         Webmeds Infringement Verification (FIV) - Reporting Listing Violations
@@ -3314,8 +3314,8 @@ export default function linkscreen() {
       </span>
       <span className="inline-block py-2 text-sm">
         Webmeds does not and cannot verify that Sellers have the right or
-        ability to sell or distribute their listed products. However, Flipkart
-        is committed to removing infringing or unlicensed products once an
+        ability to sell or distribute their listed products. However, Webmeds is
+        committed to removing infringing or unlicensed products once an
         authorized representative of the rights owner properly reports them to
         Webmeds.
       </span>
@@ -3328,7 +3328,7 @@ export default function linkscreen() {
       <span className="inline-block py-2 text-sm">
         Any person or company who holds intellectual property rights (such as a
         copyright, trademark or patent) which may be infringed upon by products
-        listed on Flipkart is encouraged to become a FIV member.
+        listed on Webmeds is encouraged to become a FIV member.
       </span>
       <span className="inline-block py-2 text-sm">
         <b>
@@ -3361,8 +3361,8 @@ export default function linkscreen() {
         and the infringed work, complete with an original authorized signature.
         The information requested by the Notice of Infringement is designed to
         ensure that parties reporting products are authorized by the rights
-        owners, and to enable Flipkart to easily identify the material or
-        listing to be ended.
+        owners, and to enable Webmeds to easily identify the material or listing
+        to be ended.
       </span>
       <span className="inline-block py-2 text-sm">
         In the interest of keeping the process easy and simple, after we receive
@@ -3391,8 +3391,8 @@ export default function linkscreen() {
       </p>
       <span className="inline-block py-2 text-sm">
         A Note on Reason Codes: When identifying item numbers please use the
-        reasons below. When removing products from the site, Flipkart will
-        inform Sellers of the specific reason for the removal of their products.
+        reasons below. When removing products from the site, Webmeds will inform
+        Sellers of the specific reason for the removal of their products.
       </span>
       <span className="inline-block py-2 text-sm">
         Select the most appropriate reason. Please associate each item you
@@ -3485,7 +3485,7 @@ export default function linkscreen() {
         <b>Contacting the Seller</b>
       </p>
       <p className="py-2 text-sm">
-        At Flipkart we are committed towards ensuring that disputes between
+        At Webmeds we are committed towards ensuring that disputes between
         sellers and buyers are settled amicably by way of the above dispute
         resolution mechanisms and procedures. However, in the event that a buyer
         wishes to contact the seller, he/ she may proceed to do so by accessing
