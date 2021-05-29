@@ -3,7 +3,22 @@ import Link from "next/link";
 import Router from "next/router";
 import ProductSlider from "./ProductSlider";
 
-export default function Product({ product }) {
+export default function Product() {
+  const product = {
+    title:
+      "Wildcraft HypaShield W95 Reusable Outdoor Protection Respirator Black Large Mask",
+    price: "190",
+    original_price: "200",
+    discount: "5",
+    rating: "3.5",
+    rating_count: "335",
+    media: [
+      "https://res.cloudinary.com/du8msdgbj/image/upload//v1601232397/cropped/z5ppd1fjsees0h0sgkqh.png",
+      "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232375/cropped/qefs3rw7bxefxfunkcbl.png",
+      "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232391/cropped/u7xplfmdyvhuaglezgno.png",
+    ],
+  };
+
   return (
     <div className="bg-gray-50 bg-opacity-8">
       <div className="bg-regal-blue z-20">
@@ -172,25 +187,4 @@ export default function Product({ product }) {
       </div>
     </div>
   );
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      product: {
-        title:
-          "Wildcraft HypaShield W95 Reusable Outdoor Protection Respirator Black Large Mask",
-        price: "190",
-        original_price: "200",
-        discount: "5",
-        rating: "3.5",
-        rating_count: "335",
-        media: [
-          "https://res.cloudinary.com/du8msdgbj/image/upload//v1601232397/cropped/z5ppd1fjsees0h0sgkqh.png",
-          "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232375/cropped/qefs3rw7bxefxfunkcbl.png",
-          "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232391/cropped/u7xplfmdyvhuaglezgno.png",
-        ],
-      },
-    },
-  };
 }
