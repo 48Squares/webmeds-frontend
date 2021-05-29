@@ -11,6 +11,7 @@ export default function MainScreen() {
   useEffect(() => {
     setScreenLayout(selectLayout());
     setLayoutComponent(RenderLayout());
+    debugger;
   }, [""]);
 
   const selectLayout = function () {
