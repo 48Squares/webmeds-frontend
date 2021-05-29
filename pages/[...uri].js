@@ -6,9 +6,11 @@ import { useRouter } from "next/router";
 export default function MainScreen() {
   const router = useRouter();
   const [screenLayout, setScreenLayout] = useState("");
+  const [LayoutComponent, setLayoutComponent] = useState(null);
 
   useEffect(() => {
     setScreenLayout(selectLayout());
+    setLayoutComponent(RenderLayout());
   }, [""]);
 
   const selectLayout = function () {
@@ -20,8 +22,8 @@ export default function MainScreen() {
   };
 
   const RenderLayout = () => {
-    return "Category" === screenLayout ? <Category /> : <Product />;
+    return "Category" === screenLayout ? Category : Product;
   };
 
-  return <RenderLayout />;
+  return LayoutComponent;
 }
