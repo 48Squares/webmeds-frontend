@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import ProductSlider from "./ProductSlider";
 
 export default function Product() {
+  const router = useRouter();
   const product = {
     title:
       "Wildcraft HypaShield W95 Reusable Outdoor Protection Respirator Black Large Mask",
@@ -13,9 +14,8 @@ export default function Product() {
     rating: "3.5",
     rating_count: "335",
     media: [
-      "https://res.cloudinary.com/du8msdgbj/image/upload//v1601232397/cropped/z5ppd1fjsees0h0sgkqh.png",
-      "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232375/cropped/qefs3rw7bxefxfunkcbl.png",
-      "https://res.cloudinary.com/du8msdgbj/image/upload/v1601232391/cropped/u7xplfmdyvhuaglezgno.png",
+      "https://res.cloudinary.com/webmeds/image/upload/v1621573997/xokuyup0fwtiqjwskgzf.jpg",
+      "https://res.cloudinary.com/webmeds/image/upload/v1621574005/efohhwqr0pqyqbfup0s0.jpg",
     ],
   };
 
@@ -24,7 +24,7 @@ export default function Product() {
       <div className="bg-regal-blue z-20">
         <div className="flex justify-between px-2 py-4">
           <div className="flex items-center space-x-2">
-            <button onClick={() => Router.back()}>
+            <button onClick={() => router.back()}>
               <svg
                 className="w-6 h-6 text-white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="bg-white h-48">
+      <div className="bg-white h-64">
         <ProductSlider media={product.media} />
       </div>
 

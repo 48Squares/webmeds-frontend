@@ -63,7 +63,7 @@ export default function Categories() {
 
       <div className="flex flex-wrap justify-between bg-white pt-6 px-4">
         {categories.map((category, index) => (
-          <Link href={"/" + category.slug + "?tid=AD2334BD"} key={index}>
+          <Link href={"/" + category.slug + "?pid=AD2334BD"} key={index}>
             <div className="flex flex-col items-center justify-center relative w-24 h-24 mb-10 flex-grow">
               <img
                 className="object-cover h-24 rounded-md overflow-hidden"
