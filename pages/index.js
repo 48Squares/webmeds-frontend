@@ -44,12 +44,6 @@ export default function App({ featuredProducts }) {
 
       <FeaturedBrands />
 
-      {/*<section className="flex flex-nowrap space-x-4 overflow-x-auto py-1 scrollbar-none">*/}
-      {/*    {this.state.featuredCategories.map((product, index) =>*/}
-      {/*        <img className="w-20 h-20 rounded-full" src={product.url} alt="" key={index}/>*/}
-      {/*    )}*/}
-      {/*</section>*/}
-
       <Banner />
 
       <HomePageSeo />

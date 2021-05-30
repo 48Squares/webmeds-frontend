@@ -1,16 +1,15 @@
 {
-    "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
 
-    "[javascriptreact]": {
+  "[javascriptreact]": {
     "editor.formatOnSave": true
-    },
+  },
 
-    "[javascript]": {
+  "[javascript]": {
     "editor.formatOnSave": true
-    },
+  },
 
-    "[json]": {
+  "[json]": {
     "editor.formatOnSave": true
-    }
-
+  }
 }
