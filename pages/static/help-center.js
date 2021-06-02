@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import {Disclosure} from "@headlessui/react";
 
 export default function HelpCenter() {

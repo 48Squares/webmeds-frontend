@@ -1,64 +1,60 @@
-import React from 'react';
-import 'swiper/swiper-bundle.css';
-import SwiperCore, {A11y, Autoplay, Navigation, Pagination} from 'swiper';
-import {Swiper, SwiperSlide} from 'swiper/react';
+import Link from "next/link";
+import React from "react";
+import "swiper/components/pagination/pagination.min.css";
+import SwiperCore, { Pagination } from "swiper/core";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
 
-function PlaceholderShell() {
-    return <div className="p-4 h-48 animate-pulse flex space-x-4">
-        <div className="flex flex-col justify-center items-center">
-            <div className="bg-gray-100 w-48 h-full">&nbsp;
-            </div>
-            <span className="bg-gray-100 w-full h-8 mt-2">&nbsp;</span></div>
-    </div>;
-}
+// install Swiper modules
+SwiperCore.use([Pagination]);
 
-export default class FeaturedBrands extends React.Component {
-    render() {
+export default function TrendingBrands() {
+  const categories = [
+    "https://res.cloudinary.com/sq48/image/upload/v1614492220/covid-essentials_n9ifrp.jpg",
+    "https://res.cloudinary.com/sq48/image/upload/v1614492882/fitness_lq8gfr.jpg",
+    "https://res.cloudinary.com/sq48/image/upload/v1614492481/diabetes_ml3tkd.jpg",
+    "https://res.cloudinary.com/sq48/image/upload/v1614492658/eyewear_abud4i.jpg",
+    "https://res.cloudinary.com/sq48/image/upload/v1614492790/ayush_b7vbi9.png",
+  ];
 
-        const sliders = [
-            1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-        ];
+  /**
+   * Pagination formula: |totalSlides - slidersPerView| + 1
+   * @returns {*}
+   */
+  return (
+    <div className="bg-white py-2 mt-2 shadow">
+      <div className="flex justify-between p-4 items-center">
+        <div>
+          <h1 className="text-xl font-medium text-gray-800 leading-none">
+            Featured Brands
+          </h1>
+        </div>
 
-        return (
-            <div className="bg-white py-2 mt-2 shadow">
-                <div className="flex justify-between p-4 items-center">
-                    <div>
-                        <h1 className="text-2xl font-medium text-gray-800 leading-none">
-                            Trending Brands
-                        </h1>
-                    </div>
+        <div>
+          <Link href="/discounts">
+            <a className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">
+              View More
+            </a>
+          </Link>
+        </div>
+      </div>
 
-                    <div>
-                        <a href=""
-                           className="px-6 py-3 bg-regal-blue text-sm text-white rounded-sm uppercase shadow-md">View
-                            More</a>
-                    </div>
-                </div>
+      <hr />
 
-                <hr/>
-
-                <div className="w-full p-4">
-                    <Swiper
-                        slidesPerView={6}
-                        navigation
-                        pagination={{clickable: true}}
-                        onSwiper={(swipe) => console.log(swipe)}
-                        onSlideChange={() => console.log('slide change')}
-                    >
-                        {sliders.map((key, index) => (
-                                <SwiperSlide key={index}>
-                                    <PlaceholderShell/>
-                                </SwiperSlide>
-                            )
-                        )}
-
-                    </Swiper>
-                </div>
-            </div>
-        )
-    };
-
-    componentDidMount() {
-        SwiperCore.use([Navigation, Pagination, Autoplay, A11y]);
-    }
+      <div className="w-full p-1 h-48">
+        <Swiper
+          autoplay={true}
+          slidesPerView={4}
+          spaceBetween={5}
+          pagination={{ clickable: true }}
+        >
+          {categories.map((url, index) => (
+            <SwiperSlide key={index}>
+              <img src={url} alt="" width="184" height="150" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
 }
