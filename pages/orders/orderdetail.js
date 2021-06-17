@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function orderdetail() {
+export default function OrderDetails() {
     return (
         <div className="bg-gray-200 ">
             <div className="bg-white h-12 p-4 mt-2">

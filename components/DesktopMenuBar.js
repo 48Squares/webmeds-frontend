@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/components/pagination/pagination.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
+import Link from "next/link";
 
 export default function DesktopMenuBar() {
   const images = [
@@ -33,12 +34,14 @@ export default function DesktopMenuBar() {
         <Swiper slidesPerView={5} spaceBetween={4}>
           {images.map((image, index) => (
             <SwiperSlide key={index}>
-              <img
-                className="rounded object-cover"
-                src={image.url}
-                alt={image.label}
-                width="80"
-              />
+              <Link href={"/" + image.label + "?tid=" + image.label}>
+                <img
+                  className="rounded object-cover"
+                  src={image.url}
+                  alt={image.label}
+                  width="80"
+                />
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

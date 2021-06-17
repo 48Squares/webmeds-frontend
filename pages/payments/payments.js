@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from "react";
-export default function payments() {
-
+export default function Payments() {
     return (
         <div>
             <div className="flex  bg-blue-400 h-8 ">
@@ -93,7 +92,7 @@ export default function payments() {
                     </div>
                     <span className="mt-6 ml-8 ">Unavailable</span>
                     <div className="relative">
-                        <div className="h-5 w-5 bg-gray-700 rounded-full  mr-6 mt-7 "></div>
+                        <div className="h-5 w-5 bg-gray-700 rounded-full  mr-6 mt-7 "/>
                         <p className="absolute top-0 left-0  mt-6 ml-2 h-1  text-white">?</p>
                     </div>
                 </div>
