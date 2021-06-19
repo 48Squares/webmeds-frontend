@@ -54,19 +54,14 @@ export default function App({ featuredProducts }) {
 }
 
 export async function getStaticProps() {
-  const data = await fetch("http://mgmt.webmeds.in/api/home")
-    .then((response) => {
-      if (response.status >= 200 && response.status < 300) {
-        return response;
-      } else {
-        new Error("ServerError");
-      }
-    })
-    .then((res) => res.json())
-    .then((json) => json.data)
-    .catch((err) => {
-      return [];
-    });
+  const data = await fetch("http://localhost:3000/api/hello").then(
+    (res) => {
+      res.json().then((json) => console.log(json));
+    },
+    (err) => {
+      console.log(err);
+    }
+  );
 
   return {
     props: {
